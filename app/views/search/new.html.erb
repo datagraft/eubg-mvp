@@ -20,11 +20,12 @@
 	<% end %>
     <% currentPageNumber = @resultSet["results"]["page"].to_i %>
 	</p>
+    
     <p>
-    Page |
-    <%  totalPages = @resultSet["results"]["total_pages"].to_i
-    if totalPages > 1 
-        (1..totalPages).each do |page| %>
+    <%  totalPages = @resultSet["results"]["total_pages"].to_i %>
+    <% if totalPages > 0 %>
+        Page |
+    <% (1..totalPages).each do |page| %>
             <% if page != currentPageNumber && page < 21 %>
             <%= link_to page, :search => params[:search], :pageNo => page, :jurisdictionFilter => params[:jurisdictionFilter] %> |
             <% else %>
@@ -32,7 +33,7 @@
             <% end %>
         <% end %>
     <% else %>
-        1 |
+        No results found for your search!
     <% end %>
     </p>
 <% else %>
