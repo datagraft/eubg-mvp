@@ -1,0 +1,108 @@
+<% provide(:title, "Search")  %>
+<div class="container jumbotron">
+
+<h1>Search company</h1>
+    
+<div class="input-group">
+    <%= form_tag root_path, :method => 'get' do %>
+    <p>
+        <%= text_field_tag :search, params[:search], :placeholder => 'Company Name' %> Country filter:
+        <%= select_tag :jurisdictionFilter, options_for_select([["All", ""], ["Norway", "no"], ["Italy", "it"], ["Great Britain", "gb"]]) %>
+        <%= submit_tag "Search", :name => nil %>
+    </p>
+    <% end %> 
+</div> 
+
+<% if !@resultSet.empty? && @resultSet["results"] %>
+	<p> 
+	<% @resultSet["results"]["companies"].each do |company| %> 
+		<%= link_to company["company"]["name"], :jurisdictionCode => company["company"]["jurisdiction_code"], :companyNumber => company["company"]["company_number"] %> <br/>
+	<% end %>
+    <% currentPageNumber = @resultSet["results"]["page"].to_i %>
+	</p>
+    <p>
+    Page |
+    <%  totalPages = @resultSet["results"]["total_pages"].to_i
+    if totalPages > 1 
+        (1..totalPages).each do |page| %>
+            <% if page != currentPageNumber && page < 21 %>
+            <%= link_to page, :search => params[:search], :pageNo => page, :jurisdictionFilter => params[:jurisdictionFilter] %> |
+            <% else %>
+            <%= page %> |
+            <% end %>
+        <% end %>
+    <% else %>
+        1 |
+    <% end %>
+    </p>
+<% else %>
+<% end %>
+
+<% if !@companyOC.empty? %>
+<% compOC = @companyOC["results"]["company"] %>
+<table class="table table-striped table-bordered table-condensed">
+	<tbody>
+        <tr>
+            <td>Company Name</td>
+            <td> <%= compOC["name"] if compOC["name"] %> </td>
+        </tr>
+		<tr>
+			<td>Company Number</td>
+			<td> <%= compOC["company_number"] if compOC["company_number"] %> </td>
+		</tr>
+		<tr>
+			<td>Status</td>
+			<td> <%= compOC["current_status"] if compOC["current_status"] %> </td>
+		</tr>
+		<tr>
+			<td>Incorporation Date</td>
+			<td> <%= compOC["incorporation_date"] if compOC["incorporation_date"] %> </td>
+		</tr>
+		<tr>
+			<td>Company Type</td>
+			<td> <%= compOC["company_type"] if compOC["company_type"] %> </td>
+		</tr>
+		<tr>
+			<td>Jurisdiction</td>
+			<td><%= compOC["jurisdiction_code"] if compOC["jurisdiction_code"] %> </td>
+		</tr>
+		<tr>
+			<td>Registered Address</td>
+			<td> <% if compOC["registered_address"] %> 
+                        <%= compOC["registered_address"]["street_address"] + ", " if compOC["registered_address"]["street_address"] 
+                        compOC["registered_address"]["locality"] + ", " if compOC["registered_address"]["locality"]
+                        compOC["registered_address"]["postal_code"] + ", " if compOC["registered_address"]["postal_code"]
+                        compOC["registered_address"]["country"] if compOC["registered_address"]["country"] %>
+                    <% end %> </td>
+		</tr>
+	</tbody>
+</table>
+
+<p> The following providers have more data about <%= compOC["name"] if compOC["name"] %></p>
+
+<% if compOC["source"] %>
+    <table class="table">
+        <tbody>
+            <tr class="info">
+                <td> <%= link_to image_tag("OCLogo.png", border: 0, width: 300, :class => "img-responsive img-thumbnail"), compOC["opencorporates_url"] %> </td> 
+
+                <% if compOC["source"]["publisher"] == "Brønnøysundregistrene" %>
+                <td> <%= link_to image_tag("BRREGLogo.svg", border: 0, width: 400, :class => "img-responsive img-thumbnail"), compOC["registry_url"] %> </td>
+                <% end %>
+
+            </tr>
+        </tbody>
+    </table>
+<% else %>
+    <table class="table">
+        <tbody>
+            <tr class="info">
+                <td> <%= link_to image_tag("OCLogo.png", border: 0, width: 300, :class => "img-responsive img-thumbnail"), compOC["opencorporates_url"] %> </td>
+            </tr>
+        </tbody>
+    </table> 
+<% end %>
+    
+<% end %>
+
+</div>
