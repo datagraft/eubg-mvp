@@ -16,7 +16,7 @@ class SearchController < ApplicationController
                 @resultSet = response
             end 
         else
-            @resultSet = {}
+            @resultSet = {}    
         end
         
         if params[:companyNumber] && !params[:companyNumber].to_s.empty?
