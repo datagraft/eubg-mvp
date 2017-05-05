@@ -13,15 +13,26 @@
     <% end %> 
 </div> 
 
+    	<p> 
 <% if !@resultSet.empty? && @resultSet["results"] %>
-	<p> 
 	<% @resultSet["results"]["companies"].each do |company| %> 
 		<%= link_to company["company"]["name"], :jurisdictionCode => company["company"]["jurisdiction_code"], :companyNumber => company["company"]["company_number"] %> <br/>
 	<% end %>
-    <% currentPageNumber = @resultSet["results"]["page"].to_i %>
-	</p>
+<% else %>
+<% end %>
     
+<% if !@atokaResultSet.empty? && @atokaResultSet["items"] %>
+	<% @atokaResultSet["items"].each do |company| %> 
+		<%= link_to company["name"], :atokaIds => company["id"].to_s %> <br/>
+	<% end %>
+<% else %>
+<% end %>
+    </p>
+
+
+<% if !@resultSet.empty? && @resultSet["results"] %>
     <p>
+    <% currentPageNumber = @resultSet["results"]["page"].to_i %>
     <%  totalPages = @resultSet["results"]["total_pages"].to_i %>
     <% if totalPages > 0 %>
         Page |
@@ -36,9 +47,9 @@
         No results found for your search!
     <% end %>
     </p>
-<% else %>
 <% end %>
-
+    
+    
 <% if !@companyOC.empty? %>
 <% compOC = @companyOC["results"]["company"] %>
 <table class="table table-striped table-bordered table-condensed">
@@ -78,6 +89,7 @@
 		</tr>
 	</tbody>
 </table>
+    
 
 <p> The following providers have more data about <%= compOC["name"] if compOC["name"] %></p>
 
@@ -106,4 +118,10 @@
     
 <% end %>
 
+    <% if !@companyAtoka.to_s.empty? %>
+     <%= @companyAtoka %>
+    <% else %>
+    <%= "String companyAtoka is empty - however, this should be a hash representing the JSON object for a spesific company" %>
+    <% end %>
+    
 </div>
