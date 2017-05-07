@@ -6,11 +6,21 @@ class SearchController < ApplicationController
                     response = searchOCGeneral(params[:search].to_s, params[:jurisdictionFilter].to_s, params[:pageNo].to_s)
                 else
                     response = searchOCGeneral(params[:search].to_s, params[:jurisdictionFilter].to_s, "")
+                    
+                    if params[:jurisdictionFilter].to_s == "it"
+                        atokaResponse = searchAtoka(params[:search].to_s, "", "")
+                    else
+                        atokaResponse = ""
+                    end
                 end
                 @resultSet = response
+                
+                @atokaResultSet = atokaResponse
             elsif params[:pageNo] && !params[:pageNo].to_s.empty?
                 response = searchOCGeneral(params[:search].to_s, "", params[:pageNo].to_s)
                 @resultSet = response
+                
+                @atokaResultSet = {}
             else
                 response = searchOCGeneral(params[:search].to_s, "", "")
                 @resultSet = response
@@ -31,7 +41,7 @@ class SearchController < ApplicationController
         end
         
         if params[:atokaIds] && !params[:atokaIds].to_s.empty?
-            response = searchAtokaCompanyID(params[:atokaIds].to_s) #for some reason, nothing is fetched... the params[:atokaIds] should contain the id captured from @atokaResultSet (see new.html.erb)
+            response = searchAtokaCompanyID(params[:atokaIds].to_s)
             @companyAtoka = response 
         else
             @companyAtoka = {} 
@@ -69,7 +79,7 @@ class SearchController < ApplicationController
         response.parsed_response
     end
     
-    def searchAtokaCompanyID(companyID) #Something wrong is happening here - just no response at all..
+    def searchAtokaCompanyID(companyID) 
         atokaToken = ENV['ATOKA_TOKEN'] 
         url = "https://api.atoka.io/v2/companies?token=" + atokaToken.to_s + "&packages=*" + "&ids=" + companyID
         response = HTTParty.get(url) 
