@@ -1,0 +1,3 @@
+class MergeSearchResults
+    
+end

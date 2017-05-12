@@ -24,6 +24,17 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+#will_paginate provides a simple API for performing paginated queries with Active Record,
+#DataMapper and Sequel, and includes helpers for rendering pagination links in Rails,
+#Sinatra and Merb web apps.
+gem 'will_paginate', '~> 3.1', '>= 3.1.5'
+#Hooks into will_paginate to format the html to match Twitter Bootstrap styling. Extension 
+#code was originally written by Isaac Bowen (https://gist.github.com/1182136).
+gem 'bootstrap-will_paginate', '~> 0.0.10'
+# Kaminari is a Scope & Engine based, clean, powerful, agnostic, customizable and
+# sophisticated paginator for Rails 3+
+#gem 'kaminari', '~> 0.16.3'
+gem 'kaminari', :git => "git://github.com/amatsuda/kaminari.git", :branch => 'master'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
