@@ -1,4 +1,5 @@
 class Search 
+    attr_reader :companies
     
     def initialize(searchString = {})
         @company = searchString[:company]
@@ -44,15 +45,16 @@ class Search
             companies = []
         end
             
-        
     end
 
     
     def search_open_corporates
+        ocToken = ENV['OC_TOKEN']
+        
         if company_defined? && !country_defined?
-            url = "https://api.opencorporates.com/v0.4/companies/search?q=" + @company.to_s
+            url = "https://api.opencorporates.com/v0.4/companies/search?api_token=" + ocToken.to_s + "&q=" + @company.to_s
             response = HTTParty.get(url)
-            companies = response.parsed_response["results"]["companies"]
+            @companies = response.parsed_response["results"]["companies"]
             totalPages = response.parsed_response["results"]["total_pages"].to_i
             
             if totalPages > 20
@@ -61,20 +63,20 @@ class Search
             
             if totalPages > 1
                 (2..totalPages).each do |page|
-                    nextPageURL = "https://api.opencorporates.com/v0.4/companies/search?q=" + @company.to_s + "&page=#{page}"
+                    nextPageURL = "https://api.opencorporates.com/v0.4/companies/search?api_token=" + ocToken.to_s + "&q=" + @company.to_s + "&page=#{page}"
                     nextPageResponse = HTTParty.get(nextPageURL)
                     nextPageCompanies = nextPageResponse.parsed_response["results"]["companies"]
-                    companies.concat(nextPageCompanies)
+                    @companies.concat(nextPageCompanies)
                 end
-                companies
+                @companies
             else
-                companies
+                @companies
             end
         elsif company_defined? && country_defined?
-            url = "https://api.opencorporates.com/v0.4/companies/search?q=" + @company.to_s + "&jurisdiction_code=" + @country.to_s
+            url = "https://api.opencorporates.com/v0.4/companies/search?api_token=" + ocToken.to_s + "&q=" + @company.to_s + "&jurisdiction_code=" + @country.to_s
             response = HTTParty.get(url)
             totalPages = response.parsed_response["results"]["total_pages"].to_i
-            companies = response.parsed_response["results"]["companies"]
+            @companies = response.parsed_response["results"]["companies"]
             
             if totalPages > 20
                 totalPages = 20
@@ -82,17 +84,17 @@ class Search
             
             if totalPages > 1
                 (2..totalPages).each do |page|
-                    nextPageURL = "https://api.opencorporates.com/v0.4/companies/search?q=" + @company.to_s + "&jurisdiction_code=" + @country.to_s + "&page=#{page}"
+                    nextPageURL = "https://api.opencorporates.com/v0.4/companies/search?api_token=" + ocToken.to_s + "&q=" + @company.to_s + "&jurisdiction_code=" + @country.to_s + "&page=#{page}"
                     nextPageResponse = HTTParty.get(nextPageURL)
                     nextPageCompanies = nextPageResponse.parsed_response["results"]["companies"]
-                    companies.concat(nextPageCompanies)
+                    @companies.concat(nextPageCompanies)
                 end
-                companies
+                @companies
             else
-                companies
+                @companies
             end
         else
-            companies = []
+            @companies = []
         end
     end 
     

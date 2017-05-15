@@ -1,12 +1,10 @@
 <% provide(:title, "Search")  %>
 <div class="container jumbotron">
 
-<h1>Search company</h1>
-    
 <div class="input-group">
     <%= form_tag root_path, :method => 'get' do %>
     <p>
-        <%= text_field_tag :search, params[:search], :placeholder => 'Company Name' %> Country filter:
+        <%= text_field_tag :search, params[:search], :placeholder => 'Search Company' %> Country filter:
         <%= select_tag :jurisdictionFilter, options_for_select([["All", ""], ["Norway", "no"], ["Italy", "it"], ["Great Britain", "gb"]]) %>
         <%= submit_tag "Search", :name => nil %>
     </p>
@@ -14,7 +12,7 @@
 </div> 
 
 
-    <% if @resultSet.any?  %>
+<% if @resultSet && @resultSet.any?  %>
     <%= will_paginate @resultSet %>
     <p>
         <% @resultSet.each do |company| %>
@@ -22,7 +20,6 @@
         <% end %>
     </p>
     <%= will_paginate @resultSet %>
-    <% end %>
+<% end %>
 
-    
 </div>
