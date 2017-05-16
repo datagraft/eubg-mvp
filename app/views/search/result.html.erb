@@ -1,8 +1,14 @@
 <% provide(:title, "Result")  %>
 <div class="container jumbotron">
 
+<% if @newSearch  %>
+    <%= will_paginate @newSearch.companies.paginate(:page => params[:page], :per_page => 30) %>
+    <p>
+        <% @newSearch.companies.each do |company| %>
+        <%= link_to company["company"]["name"], "#" %> <br/>
+        <% end %>
+    </p>
 
-
-
+<% end %>
     
 </div>

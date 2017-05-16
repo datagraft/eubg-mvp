@@ -1,4 +1,6 @@
 class Search 
+    require 'will_paginate/array'
+    
     attr_reader :companies
     
     def initialize(searchString = {})
