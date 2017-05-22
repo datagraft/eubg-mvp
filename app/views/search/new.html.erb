@@ -2,13 +2,25 @@
 <div class="container jumbotron">
 
 <div class="input-group">
-    <%= form_tag search_path, :method => 'get' do %>
+    <%= form_tag root_path, :method => 'get' do %>
     <p>
         <%= text_field_tag :search, params[:search], :placeholder => 'Search Company' %> Country filter:
         <%= select_tag :jurisdictionFilter, options_for_select([["All", ""], ["Norway", "no"], ["Italy", "it"], ["Great Britain", "gb"]]) %>
         <%= submit_tag "Search", :name => nil %>
     </p>
     <% end %> 
-</div> 
+</div>
+
+<div>
+<% if @resultSet && @resultSet.any? %>
+    <%= will_paginate @resultSet %>
+    <p>
+        <% @resultSet.each do |company| %>
+        <%= link_to company["company"]["name"], "#" %> <br/>
+        <% end %>
+    </p>
+    <%= will_paginate @resultSet %>
+<% end %>
+</div>
 
 </div>
