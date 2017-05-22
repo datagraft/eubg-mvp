@@ -16,11 +16,15 @@
     <%= will_paginate @resultSet %>
     <p>
         <% @resultSet.each do |company| %>
-        <%= link_to company["company"]["name"], "#" %> <br/>
+        <%= link_to company["company"]["name"], company_info_path( :oc_company_number => "#{company["company"]["company_number"]}", :atoka_company_number => "#{company["company"]["atoka_company_id"]}" ) %>, Atoka:
+        <%= company["company"]["atoka_company_id"] if company["company"]["atoka_company_id"] %>
+        <br/>
         <% end %>
     </p>
     <%= will_paginate @resultSet %>
 <% end %>
 </div>
+    
+    
 
 </div>
