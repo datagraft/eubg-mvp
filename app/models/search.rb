@@ -46,6 +46,10 @@ class Search
         elsif company_defined? && country_defined?
             @country = "uk" if @country == "gb" #Atoka currently accepts 'it', 'uk', 'ru', or '*' as country value
             
+            if @country != "it" || @country != "uk" || @country != "ru"
+                @country = "*"
+            end
+            
             url = "https://api.atoka.io/v2/companies?token=" + atokaToken.to_s + "&packages=*" + "&name=" + @company.to_s + "&countries=" + @country.to_s + "&limit=50" + "&offset=0" 
             response = HTTParty.get(url)
             atokaSearchResult = response.parsed_response["items"]
@@ -142,6 +146,17 @@ class Search
         end
         
         mergedResult
+    end
+    
+    def search_company_oc(country, companyID)
+        ocToken = ENV['OC_TOKEN']
+        url = "https://api.opencorporates.com/v0.4/companies/" + country.to_s + "/" + companyID.to_s + "?api_token=" + ocToken.to_s
+        response = HTTParty.get(url)
+        company = response.parsed_response["results"]["company"]
+    end
+    
+    def search_company_atoka(companyID)
+        
     end
 
     def company_defined?

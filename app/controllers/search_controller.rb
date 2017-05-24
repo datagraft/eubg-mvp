@@ -11,6 +11,8 @@ class SearchController < ApplicationController
     #end
     
     def company_info
+        newSearch = Search.new()
+        @companyInfo = newSearch.search_company_oc(params[:ocJurisdictionCode], params[:ocCompanyNumber])
     end
     
 end
