@@ -16,7 +16,7 @@
             </tr>
             <tr>
                 <td>Legal Name</td>
-                <% if alternativeCompanyInfo.any? %>
+                <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
                     <% if baseCompanyInfo["name"] == alternativeCompanyInfo["base"]["legalName"] %>
                         <td class="success"> <%= baseCompanyInfo["name"] %></td>
                         <td class="success"> Matched all</td>
@@ -33,7 +33,7 @@
             </tr>
             <tr>
                 <td>Trading As</td>
-                <% if alternativeCompanyInfo.any? %>
+                <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
                     <% if baseCompanyInfo["name"] == alternativeCompanyInfo["name"] %>
                         <td class="success"> <%= baseCompanyInfo["name"] %></td>
                         <td class="success"> Matched all</td>
@@ -50,7 +50,7 @@
             </tr>
             <tr>
                 <td>Startup</td>
-                <% if alternativeCompanyInfo.any? %>
+                <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
                     <% if baseCompanyInfo["name"] + "NotAvailable_OC" == alternativeCompanyInfo["base"]["startup"] %>
                         <td class="success"> <%= baseCompanyInfo["name"] %></td>
                         <td class="success"> Matched all</td>
@@ -67,7 +67,7 @@
             </tr>
             <tr>
                 <td>Publicly Traded</td>
-                <% if alternativeCompanyInfo.any? %>
+                <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
                     <% if baseCompanyInfo["name"] + "NotAvailable_OC" == alternativeCompanyInfo["base"]["startup"] %>
                         <td class="success"> <%= baseCompanyInfo["name"] %></td>
                         <td class="success"> Matched all</td>
@@ -78,7 +78,7 @@
                         <%= render 'search/altcmp_btn_end' %>
                     <% end %>
                 <% else %>
-                    <td> Ask Atoka (Javier) about getting access to economic.public </td>
+                    <td> <i> Ask about info </i> </td>
                     <td> &nbsp; </td>
                 <% end %> 
             </tr>
@@ -87,7 +87,7 @@
             </tr>
             <tr>
                 <td>Incorporation Date</td>
-                <% if alternativeCompanyInfo.any? %>
+                <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
                     <% if baseCompanyInfo["incorporation_date"] == alternativeCompanyInfo["base"]["founded"] %>
                         <td class="success"> <%= baseCompanyInfo["incorporation_date"] %></td>
                         <td class="success"> Matched all</td>
@@ -104,7 +104,7 @@
             </tr>
             <tr>
                 <td>Dissolution Date</td>
-                <% if alternativeCompanyInfo.any? %>
+                <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
                     <% if baseCompanyInfo["dissolution_date"] == alternativeCompanyInfo["name"] + "NotAvailable_Atoka" %>
                         <td class="success"> <%= baseCompanyInfo["dissolution_date"] %></td>
                         <td class="success"> Matched all</td>
@@ -121,7 +121,7 @@
             </tr>
             <tr>
                 <td>Current Status</td>
-                <% if alternativeCompanyInfo.any? %>
+                <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
                     <% if baseCompanyInfo["current_status"] == alternativeCompanyInfo["base"]["active"].to_s + "NotShared_Atoka" %>
                         <td class="success"> <%= baseCompanyInfo["current_status"] %></td>
                         <td class="success"> Matched all</td>
@@ -141,7 +141,7 @@
             </tr>
             <tr>
                 <td>Company Type Name</td>
-                <% if alternativeCompanyInfo.any? %>
+                <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
                     <% if baseCompanyInfo["company_type"] == alternativeCompanyInfo["base"]["legalForms"][0]["name"] %>
                         <td class="success"> <%= baseCompanyInfo["company_type"] %></td>
                         <td class="success"> Matched all</td>
@@ -158,24 +158,24 @@
             </tr>
             <tr>
                 <td>Public Sector Organization</td>
-                <td> Ask Atoka (Javier) about getting access</td>
+                <td><i> Ask about info </i></td>
             </tr>
             <tr>
                 <td>Public Sector: type of entity</td>
-                <td> Ask Atoka (Javier) about getting access</td>
+                <td> <i> Ask about info </i></td>
             <tr>
                 <th colspan="2" class="active">Economic Classification</th>
             </tr>
             <tr>
                 <td>UKSIC</td>
-                <td> Ask Atoka (Javier) about getting access</td>
+                <td> <i> Ask about info </i></td>
             </tr>
             <tr>
                 <th colspan="2" class="active">Physical Presence</th>
             </tr>
             <tr>
                 <td>Registered Address</td>
-                <% if alternativeCompanyInfo.any? %>
+                <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
                     <% if baseCompanyInfo["registered_address_in_full"] == alternativeCompanyInfo["fullAddress"] %>
                         <td class="success"> <%= baseCompanyInfo["registered_address_in_full"] %></td>
                         <td class="success"> Matched all</td>
@@ -192,7 +192,7 @@
             </tr>
             <tr>
                 <td>Jurisdiction / Country Code</td>
-                <% if alternativeCompanyInfo.any? %>
+                <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
                     <% if baseCompanyInfo["jurisdiction_code"] == alternativeCompanyInfo["country"] %>
                         <td class="success"> <%= baseCompanyInfo["jurisdiction_code"] %></td>
                         <td class="success"> Matched all</td>
@@ -212,14 +212,14 @@
             </tr>
             <tr>
                 <td>Wikipedia URI</td>
-                <td> Ask Atoka (Javier) about getting access </td>
+                <td> <i> Ask about info </i> </td>
             </tr>
             <tr>
                 <th colspan="3" class="active">Identifiers</th>
             </tr>
             <tr>
                 <td>Company Number</td>
-               <% if alternativeCompanyInfo.any? %>
+               <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
                     <% if baseCompanyInfo["company_number"] == alternativeCompanyInfo["base"]["rea"] %>
                         <td class="success"> <%= baseCompanyInfo["company_number"] %></td>
                         <td class="success"> Matched all</td>
@@ -240,7 +240,7 @@
             </tr>
             <tr>
                 <td>Atoka ID</td>
-                <td> <%= alternativeCompanyInfo["id"] %> </td>
+                <td> <%= alternativeCompanyInfo["id"] if alternativeCompanyInfo %> </td>
             </tr>
             <tr>
                 <td>Open Corporates URI</td>
@@ -248,7 +248,7 @@
             </tr>
             <tr>
                 <td>IT IPA Code</td>
-                <td> Ask Atoka (Javier) about getting access </td>
+                <td> <i> Ask about info </i> </td>
             </tr>
         </tbody>
     </table> 

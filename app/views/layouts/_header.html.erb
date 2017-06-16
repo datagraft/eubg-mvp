@@ -3,6 +3,8 @@
         <%= link_to "MVP", root_path, id: "logo" %>
         <nav>
             <ul class="nav navbar-nav navbar-right">
+                <li><%= link_to "Search", root_path %></li>
+                <li><%= link_to "Help", help_path %></li>
                 <li>
                     <div class="dropdown">
                         <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select MVP Mode
@@ -13,8 +15,6 @@
                         </ul>
                     </div> 
                 </li>
-                <li><%= link_to "Search", root_path %></li>
-                <li><%= link_to "Help", help_path %></li>
             </ul>
         </nav>
     </div>
