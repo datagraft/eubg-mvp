@@ -153,14 +153,14 @@ class Search
         ocToken = ENV['OC_TOKEN']
         url = "https://api.opencorporates.com/v0.4/companies/" + country.to_s + "/" + companyID.to_s + "?api_token=" + ocToken.to_s
         response = HTTParty.get(url)
-        company = response.parsed_response
+        response.parsed_response["results"]["company"]
     end
 
     def search_company_atoka(companyID)
         atokaToken = ENV['ATOKA_TOKEN']
         url = "https://api.atoka.io/v2/companies/" + companyID.to_s + "?token=" + atokaToken.to_s + "&packages=*"
         response = HTTParty.get(url)
-        company = response.parsed_response
+        response.parsed_response["item"]
     end
 
     def company_defined?

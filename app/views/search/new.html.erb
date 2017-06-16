@@ -22,7 +22,7 @@
         <%= will_paginate @resultSet %>
         <p>
             <% @resultSet.each do |company| %>
-            <%= link_to company["company"]["name"], company_info_path( :ocJurisdictionCode => "#{company["company"]["jurisdiction_code"]}", :ocCompanyNumber => "#{company["company"]["company_number"]}", :atokaCompanyNumber => "#{company["company"]["atoka_company_id"]}" ), :html => { :class => "btn" } %> 
+            <%= link_to company["company"]["name"], company_info_path( :ocJurisdictionCode => "#{company["company"]["jurisdiction_code"]}", :ocCompanyNumber => "#{company["company"]["company_number"]}", :atokaCompanyNumber => "#{company["company"]["atoka_company_id"]}", :MVPMode => "#{@MVPMode}" ), :html => { :class => "btn" } %> 
 
             <% if company["company"]["atoka_company_id"] %>
             <%= image_tag("AtokaLogoSmall.png", size: "22x22") %>
