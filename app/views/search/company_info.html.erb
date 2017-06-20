@@ -3,6 +3,11 @@
 
     <% baseCompanyInfo = @companyInfo[0] %>
     <% alternativeCompanyInfo = @companyInfo[1] %>
+    <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
+        <% colspan = 3 %>
+    <% else %>
+        <% colspan = 2 %>
+    <% end %>
 
 
     <% if baseCompanyInfo %>
@@ -12,7 +17,7 @@
     <table class="table table-responsive table-bordered table-condensed">
         <tbody>
             <tr>
-                <th colspan="3" class="active">Company</th>
+                <th colspan="<%= colspan %>" class="active">Company</th>
             </tr>
             <tr>
                 <td>Legal Name</td>
@@ -28,7 +33,9 @@
                     <% end %>
                 <% else %>
                     <td> <%= baseCompanyInfo["name"] %></td>
+                    <% if colspan == 3 %>
                     <td> &nbsp; </td>
+                    <% end %>   
                 <% end %> 
             </tr>
             <tr>
@@ -45,7 +52,9 @@
                     <% end %>
                 <% else %>
                     <td> <%= baseCompanyInfo["name"] %></td>
+                    <% if colspan == 3 %>
                     <td> &nbsp; </td>
+                    <% end %>   
                 <% end %> 
             </tr>
             <tr>
@@ -62,7 +71,9 @@
                     <% end %>
                 <% else %>
                     <td> <%= baseCompanyInfo["name"] %></td>
+                    <% if colspan == 3 %>
                     <td> &nbsp; </td>
+                    <% end %>   
                 <% end %> 
             </tr>
             <tr>
@@ -79,11 +90,13 @@
                     <% end %>
                 <% else %>
                     <td> <i> Ask about info </i> </td>
+                    <% if colspan == 3 %>
                     <td> &nbsp; </td>
+                    <% end %>   
                 <% end %> 
             </tr>
             <tr>
-                <th colspan="3" class="active">Company Dates and Status</th>
+                <th colspan="<%= colspan %>" class="active">Company Dates and Status</th>
             </tr>
             <tr>
                 <td>Incorporation Date</td>
@@ -99,7 +112,9 @@
                     <% end %>
                 <% else %>
                     <td> <%= baseCompanyInfo["incorporation_date"] %></td>
+                    <% if colspan == 3 %>
                     <td> &nbsp; </td>
+                    <% end %>   
                 <% end %> 
             </tr>
             <tr>
@@ -116,7 +131,9 @@
                     <% end %>
                 <% else %>
                     <td> <%= baseCompanyInfo["incorporation_date"] %></td>
+                    <% if colspan == 3 %>
                     <td> &nbsp; </td>
+                    <% end %>   
                 <% end %> 
             </tr>
             <tr>
@@ -133,11 +150,13 @@
                     <% end %>
                 <% else %>
                     <td> <%= baseCompanyInfo["current_status"] %></td>
+                    <% if colspan == 3 %>
                     <td> &nbsp; </td>
+                    <% end %>   
                 <% end %> 
             </tr>
             <tr>
-                <th colspan="3" class="active">Company Type</th>
+                <th colspan="<%= colspan %>" class="active">Company Type</th>
             </tr>
             <tr>
                 <td>Company Type Name</td>
@@ -153,7 +172,9 @@
                     <% end %>
                 <% else %>
                     <td> <%= baseCompanyInfo["company_type"] %></td>
+                    <% if colspan == 3 %>
                     <td> &nbsp; </td>
+                    <% end %>   
                 <% end %> 
             </tr>
             <tr>
@@ -164,14 +185,14 @@
                 <td>Public Sector: type of entity</td>
                 <td> <i> Ask about info </i></td>
             <tr>
-                <th colspan="2" class="active">Economic Classification</th>
+                <th colspan="<%= colspan %>" class="active">Economic Classification</th>
             </tr>
             <tr>
                 <td>UKSIC</td>
                 <td> <i> Ask about info </i></td>
             </tr>
             <tr>
-                <th colspan="2" class="active">Physical Presence</th>
+                <th colspan="<%= colspan %>" class="active">Physical Presence</th>
             </tr>
             <tr>
                 <td>Registered Address</td>
@@ -187,7 +208,9 @@
                     <% end %>
                 <% else %>
                     <td> <%= baseCompanyInfo["registered_address_in_full"] %></td>
+                    <% if colspan == 3 %>
                     <td> &nbsp; </td>
+                    <% end %>   
                 <% end %>
             </tr>
             <tr>
@@ -204,34 +227,38 @@
                     <% end %>
                 <% else %>
                     <td> <%= baseCompanyInfo["jurisdiction_code"] %></td>
+                    <% if colspan == 3 %>
                     <td> &nbsp; </td>
+                    <% end %>   
                 <% end %>
             </tr>
             <tr>
-                <th colspan="3" class="active">Electronic Presence</th>
+                <th colspan="<%= colspan %>" class="active">Electronic Presence</th>
             </tr>
             <tr>
                 <td>Wikipedia URI</td>
                 <td> <i> Ask about info </i> </td>
             </tr>
             <tr>
-                <th colspan="3" class="active">Identifiers</th>
+                <th colspan="<%= colspan %>" class="active">Identifiers</th>
             </tr>
             <tr>
                 <td>Company Number</td>
                <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
-                    <% if baseCompanyInfo["company_number"] == alternativeCompanyInfo["base"]["rea"] %>
+                    <% if baseCompanyInfo["company_number"] == alternativeCompanyInfo["id"] %>
                         <td class="success"> <%= baseCompanyInfo["company_number"] %></td>
                         <td class="success"> Matched all</td>
                     <% else %>
                         <td class="warning"> <%= baseCompanyInfo["company_number"] %></td>
                         <%= render 'search/altcmp_btn_start' %>
-                        <li><%= link_to image_tag("AtokaLogoSmall.png", size: "22x22") + " " + alternativeCompanyInfo["base"]["rea"].to_s, "#"  %></li>
+                        <li><%= link_to image_tag("AtokaLogoSmall.png", size: "22x22") + " " + alternativeCompanyInfo["id"].to_s, "#"  %></li>
                         <%= render 'search/altcmp_btn_end' %>
                     <% end %>
                 <% else %>
                     <td> <%= baseCompanyInfo["company_number"] %></td>
+                    <% if colspan == 3 %>
                     <td> &nbsp; </td>
+                    <% end %>   
                 <% end %>
             </tr>
             <tr>
@@ -253,9 +280,185 @@
         </tbody>
     </table> 
 
-    <br/>
-    <h3>The following data providers may provide additional data about <%= baseCompanyInfo["name"] if baseCompanyInfo["name"] %></h3>
 
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3>The following may provide additional data about <%= baseCompanyInfo["name"] if baseCompanyInfo["name"] %></h3></div>
+        <div class="panel-body">
+            <table class="table table-condensed" style="border-collapse:collapse;">
+
+                <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>Provider Name</th>
+                        <th>Provider Description</th>
+                        <th>No. Additional Properties</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr data-toggle="collapse" data-target="#atoka" class="accordion-toggle info">
+                        <td><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span></button></td>
+                        <td>Atoka</td>
+                        <td>Atoka is a search engine for Italian, British and Russian companies: quickly find the business information you are looking for, using powerful search filters.</td>
+                        <td>11</td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="hiddenRow">
+                            <div class="accordian-body collapse" id="atoka"> 
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Property</th>
+                                        <th>Property Description</th>
+                                        <th>Value </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Languages</td>
+                                        <td>Languages used in web resources related to the organization.</td>
+                                        <td>
+                                            <a href="#" class="btn btn-default btn-sm">
+                                        <i class="glyphicon glyphicon-lock"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Legal Forms</td>
+                                        <td>Legal form of entity.</td>
+                                        <td>
+                                            <a href="#" class="btn btn-default btn-sm">
+                                        <i class="glyphicon glyphicon-lock"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ATECO</td>
+                                        <td>"Codice ATtivita ECOnomica": IT Standard Industrial Classification.</td>
+                                        <td>
+                                            <a href="#" class="btn btn-default btn-sm">
+                                        <i class="glyphicon glyphicon-lock"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Locations</td>
+                                        <td>Other locations associated to an organization.</td>
+                                        <td>
+                                            <a href="#" class="btn btn-default btn-sm">
+                                        <i class="glyphicon glyphicon-lock"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Certified Emails</td>
+                                        <td>A list of e-mails that are officially registered and with the same validity as certified (snail) mail.</td>
+                                        <td>
+                                            <a href="#" class="btn btn-default btn-sm">
+                                        <i class="glyphicon glyphicon-lock"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Websites</td>
+                                        <td>Websites associated to an organization.</td>
+                                        <td>
+                                            <a href="#" class="btn btn-default btn-sm">
+                                        <i class="glyphicon glyphicon-lock"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Newsfeeds/blogs</td>
+                                        <td>RSS/Atom feeds associated with an organization.</td>
+                                        <td>
+                                            <a href="#" class="btn btn-default btn-sm">
+                                        <i class="glyphicon glyphicon-lock"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>CCIIA Code</td>
+                                        <td>CCIIA: Camera di Commercio, Industria, Artigianto e Agricoltura. ID of the chamber of commerce that issues the REA in that province.</td>
+                                        <td>
+                                            <a href="#" class="btn btn-default btn-sm">
+                                        <i class="glyphicon glyphicon-lock"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>REA Code</td>
+                                        <td>REA means "Repertorio Economico Amministrativo". These are codes handed by chambers of commerce to companies upon registration.</td>
+                                        <td>
+                                            <a href="#" class="btn btn-default btn-sm">
+                                        <i class="glyphicon glyphicon-lock"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>VAT Code</td>
+                                        <td>Value added tax identification number.</td>
+                                        <td>
+                                            <a href="#" class="btn btn-default btn-sm">
+                                        <i class="glyphicon glyphicon-lock"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>IT Tax ID</td>
+                                        <td>ID issued by the Italian Revenue Agancy (Agenzia delle entrate) to identify citizens and entities.</td>
+                                        <td>
+                                            <a href="#" class="btn btn-default btn-sm">
+                                        <i class="glyphicon glyphicon-lock"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            </div> 
+                        </td>
+                    </tr>
+                    
+                    <tr data-toggle="collapse" data-target="#openCorporates" class="accordion-toggle info">
+                        <td><button class="btn btn-default btn-xs"><span class="glyphicon glyphicon-eye-open"></span></button></td>
+                        <td>Open Corporates</td>
+                        <td>OpenCorporates is the largest open database of companies and company data in the world, with in excess of 100 million companies in a similarly large number of jurisdictions.</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="4" class="hiddenRow">
+                            <div class="accordian-body collapse" id="openCorporates"> 
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Property</th>
+                                        <th>Property Description</th>
+                                        <th>Value </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>
+                                            <a href="#" class="btn btn-default btn-sm">
+                                        <i class="glyphicon glyphicon-lock"></i></a>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                            </div> 
+                        </td>
+                    </tr>
+                    
+                    
+
+                    
+                    
+                </tbody>
+                
+            </table>
+        </div>
+
+    </div> 
+
+
+    
+ <!--   
     <table class="table table-bordered table-condensed">
         <tbody>
 
@@ -282,5 +485,7 @@
     </table>
 
     <% end %>
+
+-->
 
 </div>

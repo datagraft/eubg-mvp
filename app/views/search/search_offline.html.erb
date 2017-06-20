@@ -1,6 +1,22 @@
 <% provide(:title, "OFFLINE")  %>
 <div class="container jumbotron">
 
+    <div class="row">
+        <div class="col-xs-8 col-xs-offset-3">
+            <%= form_tag search_offline_path, :method => 'get', :class => 'form-inline' do %>
+            <div class="form-group">
+                <%= label_tag 'company' %>
+                <%= text_field_tag :search, params[:search], :placeholder => 'Company name', :class => 'form-control', :disabled => 'true' %>
+            </div>
+            <div class="form-group disabled">
+                <%= label_tag 'country' %>
+                <%= select_tag :jurisdictionFilter, options_for_select([["All", ""], ["Norway", "no"], ["Italy", "it"], ["Great Britain", "gb"]]), :class => 'form-control', :disabled => 'true' %>
+            </div>
+            <%= button_tag "Search", :name => nil, :class => "btn btn-default disabled" %>
+        </div>
+        <% end %>
+    </div>
+
     <div>
         <% if @resultSet && @resultSet.any? %>
         <%= will_paginate @resultSet %>
