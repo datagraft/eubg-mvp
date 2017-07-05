@@ -9,6 +9,12 @@ class Search
     end
 
     def execute_search
+        ######### Save search results to a .json file
+        #atokaResult = search_atoka
+        #File.open("temp.json","w") do |f|
+        #    f.write(atokaResult.to_json)
+        #end
+        
         ######### online search
         ocResult = search_open_corporates
         atokaResult = search_atoka
@@ -132,7 +138,7 @@ class Search
     end
 
     def merge_search_results(ocResult, atokaResult)
-        mergedResult = []
+        mergedResult = [] 
 
         ocResult.each do |ocCompany|
 

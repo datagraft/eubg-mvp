@@ -1,6 +1,7 @@
 <% provide(:title, "Compnay info")  %>
 <div class="container">
 
+    <!-- The search feature assumes one base search, and a set of alternative searches. The results obtained from the base search is then compared to the results from the available alternative searches. -->
     <% baseCompanyInfo = @companyInfo[0] %>
     <% alternativeCompanyInfo = @companyInfo[1] %>
     <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
@@ -17,7 +18,9 @@
     <table class="table table-responsive table-bordered table-condensed">
         <tbody>
             <tr>
-                <th colspan="<%= colspan %>" class="active">Company</th>
+                <th class="active">Company</th>
+                <th class="active">Base data</th>
+                <th class="active">Alternative data</th>
             </tr>
             <tr>
                 <td>Legal Name</td>
@@ -41,13 +44,13 @@
             <tr>
                 <td>Trading As</td>
                 <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
-                    <% if baseCompanyInfo["name"] == alternativeCompanyInfo["name"] %>
+                    <% if "NotAvailable_OC" == alternativeCompanyInfo["name"] %>
                         <td class="success"> <%= baseCompanyInfo["name"] %></td>
                         <td class="success"> Matched all</td>
                     <% else %>
-                        <td class="warning"> <%= baseCompanyInfo["name"] %></td>
+                        <td class="warning"> <i> Information not available.</i></td>
                         <%= render 'search/altcmp_btn_start' %>
-                        <li><%= link_to alternativeCompanyInfo["name"] %></li>
+                        <li><%= link_to image_tag("AtokaLogoSmall.png", size: "22x22") + alternativeCompanyInfo["name"].to_s, "#" %></li>
                         <%= render 'search/altcmp_btn_end' %>
                     <% end %>
                 <% else %>
@@ -60,13 +63,13 @@
             <tr>
                 <td>Startup</td>
                 <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
-                    <% if baseCompanyInfo["name"] + "NotAvailable_OC" == alternativeCompanyInfo["base"]["startup"] %>
+                    <% if "NotAvailable_OC" == alternativeCompanyInfo["base"]["startup"] %>
                         <td class="success"> <%= baseCompanyInfo["name"] %></td>
                         <td class="success"> Matched all</td>
                     <% else %>
-                        <td class="warning"> Information not available.</td>
+                        <td class="warning"><i> Information not available.</i></td>
                         <%= render 'search/altcmp_btn_start' %>
-                        <li><%= link_to link_to image_tag("AtokaLogoSmall.png", size: "22x22") + " " + alternativeCompanyInfo["base"]["startup"].to_s, "#"  %></li>
+                        <li><%= link_to image_tag("AtokaLogoSmall.png", size: "22x22") + " " + alternativeCompanyInfo["base"]["startup"].to_s, "#"  %></li>
                         <%= render 'search/altcmp_btn_end' %>
                     <% end %>
                 <% else %>
@@ -79,17 +82,17 @@
             <tr>
                 <td>Publicly Traded</td>
                 <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
-                    <% if baseCompanyInfo["name"] + "NotAvailable_OC" == alternativeCompanyInfo["base"]["startup"] %>
+                    <% if alternativeCompanyInfo["economics"]["public"] && "NotAvailable_OC" == alternativeCompanyInfo["economics"]["public"] %>
                         <td class="success"> <%= baseCompanyInfo["name"] %></td>
                         <td class="success"> Matched all</td>
                     <% else %>
-                        <td class="warning"> <%= baseCompanyInfo["name"] %></td>
+                <td class="warning"><i> Information not available.</i></td>
                         <%= render 'search/altcmp_btn_start' %>
-                        <li><%= link_to alternativeCompanyInfo["base"]["startup"].to_s, "#" %></li>
+                        <li>&nbsp;</li>
                         <%= render 'search/altcmp_btn_end' %>
                     <% end %>
                 <% else %>
-                    <td> <i> Ask about info </i> </td>
+                    <td> <i> Information not available. </i> </td>
                     <% if colspan == 3 %>
                     <td> &nbsp; </td>
                     <% end %>   
@@ -120,7 +123,7 @@
             <tr>
                 <td>Dissolution Date</td>
                 <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
-                    <% if baseCompanyInfo["dissolution_date"] == alternativeCompanyInfo["name"] + "NotAvailable_Atoka" %>
+                    <% if baseCompanyInfo["dissolution_date"] == "NotAvailable_Atoka" %>
                         <td class="success"> <%= baseCompanyInfo["dissolution_date"] %></td>
                         <td class="success"> Matched all</td>
                     <% else %>
@@ -139,7 +142,7 @@
             <tr>
                 <td>Current Status</td>
                 <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
-                    <% if baseCompanyInfo["current_status"] == alternativeCompanyInfo["base"]["active"].to_s + "NotShared_Atoka" %>
+                    <% if baseCompanyInfo["current_status"] == "NotShared_Atoka" %>
                         <td class="success"> <%= baseCompanyInfo["current_status"] %></td>
                         <td class="success"> Matched all</td>
                     <% else %>
@@ -179,17 +182,47 @@
             </tr>
             <tr>
                 <td>Public Sector Organization</td>
-                <td><i> Ask about info </i></td>
+                <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
+                    <% if "NotAvailable_OC" ==  "NotAvailable_Atoka" + "can not find [public]" %>
+                        <td class="success"> <%= baseCompanyInfo["dissolution_date"] %></td>
+                        <td class="success"> Matched all</td>
+                    <% else %>
+                        <td class="warning"> <i>Information not available</i> </td>
+                        <%= render 'search/altcmp_btn_start' %>
+                        <li><%= link_to image_tag("AtokaLogoSmall.png", size: "22x22") + " Information not available", "#" %></li>
+                        <%= render 'search/altcmp_btn_end' %>
+                    <% end %>
+                <% else %>
+                    <td> <%= baseCompanyInfo["incorporation_date"] %></td>
+                    <% if colspan == 3 %>
+                    <td> &nbsp; </td>
+                    <% end %>   
+                <% end %> 
             </tr>
             <tr>
                 <td>Public Sector: type of entity</td>
-                <td> <i> Ask about info </i></td>
+                <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
+                    <% if "NotAvailable_OC" == "NotAvailable_Atoka" + "can not find [base][govType]" %>
+                        <td class="success"> <%= baseCompanyInfo["dissolution_date"] %></td>
+                        <td class="success"> Matched all</td>
+                    <% else %>
+                        <td class="warning"> <i>Information not available</i> </td>
+                        <%= render 'search/altcmp_btn_start' %>
+                        <li><%= link_to image_tag("AtokaLogoSmall.png", size: "22x22") + " Information not available", "#" %></li>
+                        <%= render 'search/altcmp_btn_end' %>
+                    <% end %>
+                <% else %>
+                    <td> <%= baseCompanyInfo["incorporation_date"] %></td>
+                    <% if colspan == 3 %>
+                    <td> &nbsp; </td>
+                    <% end %>   
+                <% end %> 
             <tr>
                 <th colspan="<%= colspan %>" class="active">Economic Classification</th>
             </tr>
             <tr>
                 <td>UKSIC</td>
-                <td> <i> Ask about info </i></td>
+                <td> <i> Information not available. </i></td>
             </tr>
             <tr>
                 <th colspan="<%= colspan %>" class="active">Physical Presence</th>
@@ -237,7 +270,22 @@
             </tr>
             <tr>
                 <td>Wikipedia URI</td>
-                <td> <i> Ask about info </i> </td>
+                <% if alternativeCompanyInfo && alternativeCompanyInfo.any? %>
+                    <% if "NotAvailable_OC" == "NotAvailable_Atoka" + "can not find [web][wikipediUri]" %>
+                        <td class="success"> <%= baseCompanyInfo["jurisdiction_code"] %></td>
+                        <td class="success"> Matched all</td>
+                    <% else %>
+                        <td class="warning"> <i>Information not available</i> </td>
+                        <%= render 'search/altcmp_btn_start' %>
+                        <li><%= link_to image_tag("AtokaLogoSmall.png", size: "22x22") + " Information not available" , "#"  %></li>
+                        <%= render 'search/altcmp_btn_end' %>
+                    <% end %>
+                <% else %>
+                    <td> <%= baseCompanyInfo["jurisdiction_code"] %></td>
+                    <% if colspan == 3 %>
+                    <td> &nbsp; </td>
+                    <% end %>   
+                <% end %>
             </tr>
             <tr>
                 <th colspan="<%= colspan %>" class="active">Identifiers</th>
@@ -275,7 +323,7 @@
             </tr>
             <tr>
                 <td>IT IPA Code</td>
-                <td> <i> Ask about info </i> </td>
+                <td> <i> Information not available. </i> </td>
             </tr>
         </tbody>
     </table> 
@@ -484,8 +532,8 @@
         </tbody>
     </table>
 
-    <% end %>
-
 -->
 
+    <% end %>
+    
 </div>
