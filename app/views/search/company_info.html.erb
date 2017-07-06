@@ -94,7 +94,12 @@
                             <li><%= link_to image_tag("AtokaLogoSmall.png", size: "22x22") + " ", "#" %></li>
                             <%= render 'search/altcmp_btn_end' %>
                         <% end %>
-                    <% end %> 
+                    <% else %> 
+                    <td class="warning"><i> Information not available.</i></td>
+                            <%= render 'search/altcmp_btn_start' %>
+                            <li><%= link_to image_tag("AtokaLogoSmall.png", size: "22x22") + " ", "#" %></li>
+                            <%= render 'search/altcmp_btn_end' %>
+                    <% end %>                 
                 <% else %>
                     <td> <i> Information not available.</i> </td>
                     <% if colspan == 3 %>
