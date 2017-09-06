@@ -1,0 +1,1064 @@
+
+<http://data.businessgraph.io/Company/SC045242> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/SC045242> ;
+	<http://www.w3.org/ns/regorg#legalName> "AIRDRIE-LIPTON LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "AIRDRIE-LIPTON LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/SC045242> .
+
+<http://data.businessgraph.io/Identifier/SC045242> <http://www.w3.org/2004/02/skos/core#notation> "SC045242" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/SC045242> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "0" ;
+	<http://www.w3.org/ns/locn#postCode> "0" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "0" ;
+	<http://www.w3.org/ns/locn#fullAddress> "0" .
+
+<http://data.businessgraph.io/Company/06986705> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/06986705> ;
+	<http://www.w3.org/ns/regorg#legalName> "ALEX LIPTON CONSULTING LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2009-08-10T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2012-01-17T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "ALEX LIPTON CONSULTING LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/06986705> .
+
+<http://data.businessgraph.io/Identifier/06986705> <http://www.w3.org/2004/02/skos/core#notation> "06986705" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/06986705> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "Dereham" ;
+	<http://www.w3.org/ns/locn#postCode> "NR19 1DR" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "The White House High Street" ;
+	<http://www.w3.org/ns/locn#fullAddress> "The White House High Street Dereham Norfolk NR19 1DR" .
+
+<http://data.businessgraph.io/Company/00998365> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/00998365> ;
+	<http://www.w3.org/ns/regorg#legalName> "ANTHONY LIPTON & CO." ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "ANTHONY LIPTON & CO." ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/00998365> .
+
+<http://data.businessgraph.io/Identifier/00998365> <http://www.w3.org/2004/02/skos/core#notation> "00998365" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/00998365> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "0" ;
+	<http://www.w3.org/ns/locn#postCode> "0" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "0" ;
+	<http://www.w3.org/ns/locn#fullAddress> "0" .
+
+<http://data.businessgraph.io/Company/02483273> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/02483273> ;
+	<http://www.w3.org/ns/regorg#legalName> "ANTHONY LIPTON HOLDINGS LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1990-03-20T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2009-05-26T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "ANTHONY LIPTON HOLDINGS LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/02483273> .
+
+<http://data.businessgraph.io/Identifier/02483273> <http://www.w3.org/2004/02/skos/core#notation> "02483273" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/02483273> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "LONDON" ;
+	<http://www.w3.org/ns/locn#postCode> "NW9 6LA" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "HYDE HOUSE THE HYDE EDGWARE ROAD" ;
+	<http://www.w3.org/ns/locn#fullAddress> "HYDE HOUSE THE HYDE EDGWARE ROAD LONDON NW9 6LA" .
+
+<http://data.businessgraph.io/Company/06616483> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/06616483> ;
+	<http://www.w3.org/ns/regorg#legalName> "ANTHONY LIPTON LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2008-06-11T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2014-10-18T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "ANTHONY LIPTON LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/06616483> .
+
+<http://data.businessgraph.io/Identifier/06616483> <http://www.w3.org/2004/02/skos/core#notation> "06616483" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/06616483> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "London" ;
+	<http://www.w3.org/ns/locn#postCode> "N12 8LY" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "319 Ballards Lane" ;
+	<http://www.w3.org/ns/locn#fullAddress> "319 Ballards Lane London N12 8LY" .
+
+<http://data.businessgraph.io/Company/SC165978> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/SC165978> ;
+	<http://www.w3.org/ns/regorg#legalName> "C. LIPTON LTD." ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1996-05-31T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "C. LIPTON LTD." ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/SC165978> .
+
+<http://data.businessgraph.io/Identifier/SC165978> <http://www.w3.org/2004/02/skos/core#notation> "SC165978" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/SC165978> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "Glasgow" ;
+	<http://www.w3.org/ns/locn#postCode> "G64 2PZ" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "5 Crosshill Road Bishopbriggs" ;
+	<http://www.w3.org/ns/locn#fullAddress> "5 Crosshill Road Bishopbriggs Glasgow G64 2PZ" .
+
+<http://data.businessgraph.io/Company/00630370> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/00630370> ;
+	<http://www.w3.org/ns/regorg#legalName> "C.H.LIPTON & CO. LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1959-06-15T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "1998-11-24T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "C.H.LIPTON & CO. LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/00630370> .
+
+<http://data.businessgraph.io/Identifier/00630370> <http://www.w3.org/2004/02/skos/core#notation> "00630370" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/00630370> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "LONDON" ;
+	<http://www.w3.org/ns/locn#postCode> "EC1N 8RB" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "CAROLYN HOUSE 29-31 GREVILLE STREET" ;
+	<http://www.w3.org/ns/locn#fullAddress> "CAROLYN HOUSE 29-31 GREVILLE STREET LONDON EC1N 8RB" .
+
+<http://data.businessgraph.io/Company/04378034> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/04378034> ;
+	<http://www.w3.org/ns/regorg#legalName> "DORCHESTER RESIDENTIAL MANAGEMENT LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2002-02-20T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "DORCHESTER RESIDENTIAL MANAGEMENT LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/04378034> .
+
+<http://data.businessgraph.io/Identifier/04378034> <http://www.w3.org/2004/02/skos/core#notation> "04378034" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/04378034> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "London" ;
+	<http://www.w3.org/ns/locn#postCode> "W1U 6EQ" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "14 David Mews" ;
+	<http://www.w3.org/ns/locn#fullAddress> "14 David Mews London W1U 6EQ" .
+
+<http://data.businessgraph.io/Company/SC042011> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/SC042011> ;
+	<http://www.w3.org/ns/regorg#legalName> "EGLINTON ST LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1965-04-05T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "EGLINTON ST LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/SC042011> .
+
+<http://data.businessgraph.io/Identifier/SC042011> <http://www.w3.org/2004/02/skos/core#notation> "SC042011" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/SC042011> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "GLASGOW" ;
+	<http://www.w3.org/ns/locn#postCode> "G3 7NJ" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "C/O STEVENSON & KYLES 25 SANDYFORD PLACE SAUCHIEHALL STREET" ;
+	<http://www.w3.org/ns/locn#fullAddress> "C/O STEVENSON & KYLES 25 SANDYFORD PLACE SAUCHIEHALL STREET GLASGOW G3 7NJ" .
+
+<http://data.businessgraph.io/Company/09589494> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/09589494> ;
+	<http://www.w3.org/ns/regorg#legalName> "FIRST BASE LIPTON ROGERS LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2015-05-13T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "FIRST BASE LIPTON ROGERS LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/09589494> .
+
+<http://data.businessgraph.io/Identifier/09589494> <http://www.w3.org/2004/02/skos/core#notation> "09589494" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/09589494> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "London" ;
+	<http://www.w3.org/ns/locn#postCode> "W1G 9EL" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "40 Queen Anne Street" ;
+	<http://www.w3.org/ns/locn#fullAddress> "40 Queen Anne Street London W1G 9EL" .
+
+<http://data.businessgraph.io/Company/04940362> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/04940362> ;
+	<http://www.w3.org/ns/regorg#legalName> "FSP REALISATIONS (2016) LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2003-10-22T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "FSP REALISATIONS (2016) LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "In Administration" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/04940362> .
+
+<http://data.businessgraph.io/Identifier/04940362> <http://www.w3.org/2004/02/skos/core#notation> "04940362" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/04940362> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "St Albans" ;
+	<http://www.w3.org/ns/locn#postCode> "AL1 3RD" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "C/O FRP ADVISORY LLP 4 Beaconsfield Road" ;
+	<http://www.w3.org/ns/locn#fullAddress> "C/O FRP ADVISORY LLP 4 Beaconsfield Road St Albans Hertfordshire AL1 3RD" .
+
+<http://data.businessgraph.io/Company/04653389> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/04653389> ;
+	<http://www.w3.org/ns/regorg#legalName> "K J LIPTON & SON LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2003-01-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "K J LIPTON & SON LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Liquidation" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/04653389> .
+
+<http://data.businessgraph.io/Identifier/04653389> <http://www.w3.org/2004/02/skos/core#notation> "04653389" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/04653389> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "Nottingham" ;
+	<http://www.w3.org/ns/locn#postCode> "NG13 8AP" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "Charlotte House 19b Market Place Bingham" ;
+	<http://www.w3.org/ns/locn#fullAddress> "Charlotte House 19b Market Place Bingham Nottingham NG13 8AP" .
+
+<http://data.businessgraph.io/Company/05096700> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/05096700> ;
+	<http://www.w3.org/ns/regorg#legalName> "LESLIE LIPTON LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2004-04-06T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LESLIE LIPTON LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/05096700> .
+
+<http://data.businessgraph.io/Identifier/05096700> <http://www.w3.org/2004/02/skos/core#notation> "05096700" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/05096700> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "Cowley Mill Road Uxbridge" ;
+	<http://www.w3.org/ns/locn#postCode> "UB8 2FX" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "C/O Barnes Roffe Llp 3 Brook Business Centre" ;
+	<http://www.w3.org/ns/locn#fullAddress> "C/O Barnes Roffe Llp 3 Brook Business Centre Cowley Mill Road Uxbridge Middlesex UB8 2FX" .
+
+<http://data.businessgraph.io/Company/03740938> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/03740938> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON ACCOUNTANTS LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1999-03-25T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2002-05-14T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON ACCOUNTANTS LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/03740938> .
+
+<http://data.businessgraph.io/Identifier/03740938> <http://www.w3.org/2004/02/skos/core#notation> "03740938" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/03740938> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "SURREY" ;
+	<http://www.w3.org/ns/locn#postCode> "CR4 3LY" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "45 FLEMING MEAD MITCHAM" ;
+	<http://www.w3.org/ns/locn#fullAddress> "45 FLEMING MEAD MITCHAM SURREY CR4 3LY" .
+
+<http://data.businessgraph.io/Company/01220702> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/01220702> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON ALUMINIUM GRANULE COMPANY LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON ALUMINIUM GRANULE COMPANY LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/01220702> .
+
+<http://data.businessgraph.io/Identifier/01220702> <http://www.w3.org/2004/02/skos/core#notation> "01220702" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/01220702> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "0" ;
+	<http://www.w3.org/ns/locn#postCode> "0" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "0" ;
+	<http://www.w3.org/ns/locn#fullAddress> "0" .
+
+<http://data.businessgraph.io/Company/10356025> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/10356025> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON ASSOCIATES LTD." ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2016-09-02T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON ASSOCIATES LTD." ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/10356025> .
+
+<http://data.businessgraph.io/Identifier/10356025> <http://www.w3.org/2004/02/skos/core#notation> "10356025" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/10356025> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "Edgware" ;
+	<http://www.w3.org/ns/locn#postCode> "HA8 5TL" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "18 Cotman Gardens" ;
+	<http://www.w3.org/ns/locn#fullAddress> "18 Cotman Gardens Edgware London HA8 5TL" .
+
+<http://data.businessgraph.io/Company/09494893> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/09494893> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON CLOSE 1957 LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2015-03-17T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2015-08-18T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON CLOSE 1957 LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/09494893> .
+
+<http://data.businessgraph.io/Identifier/09494893> <http://www.w3.org/2004/02/skos/core#notation> "09494893" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/09494893> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "London" ;
+	<http://www.w3.org/ns/locn#postCode> "SE28 8LE" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "6 Lipton Close" ;
+	<http://www.w3.org/ns/locn#fullAddress> "6 Lipton Close London SE28 8LE" .
+
+<http://data.businessgraph.io/Company/02287902> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/02287902> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON CONSULTING LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1988-08-18T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON CONSULTING LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/02287902> .
+
+<http://data.businessgraph.io/Identifier/02287902> <http://www.w3.org/2004/02/skos/core#notation> "02287902" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/02287902> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "Westerham" ;
+	<http://www.w3.org/ns/locn#postCode> "TN16 3HG" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "72a Sutherland Avenue Biggin Hill" ;
+	<http://www.w3.org/ns/locn#fullAddress> "72a Sutherland Avenue Biggin Hill Westerham Kent TN16 3HG" .
+
+<http://data.businessgraph.io/Company/02708659> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/02708659> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON COURT MANAGEMENT COMPANY LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1992-04-22T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON COURT MANAGEMENT COMPANY LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/02708659> .
+
+<http://data.businessgraph.io/Identifier/02708659> <http://www.w3.org/2004/02/skos/core#notation> "02708659" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/02708659> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "New Barnet" ;
+	<http://www.w3.org/ns/locn#postCode> "EN4 8AL" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "Network House 110/112 Lancaster Road" ;
+	<http://www.w3.org/ns/locn#fullAddress> "Network House 110/112 Lancaster Road New Barnet Herts EN4 8AL" .
+
+<http://data.businessgraph.io/Company/09054299> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/09054299> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON COUTTS LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2014-05-23T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2016-01-05T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON COUTTS LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/09054299> .
+
+<http://data.businessgraph.io/Identifier/09054299> <http://www.w3.org/2004/02/skos/core#notation> "09054299" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/09054299> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "Preston" ;
+	<http://www.w3.org/ns/locn#postCode> "PR22GB" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "119 Princes Reach Ashton-On-Ribble" ;
+	<http://www.w3.org/ns/locn#fullAddress> "119 Princes Reach Ashton-On-Ribble Preston PR22GB" .
+
+<http://data.businessgraph.io/Company/10711315> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/10711315> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON DEVELOPMENT LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2017-04-05T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON DEVELOPMENT LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/10711315> .
+
+<http://data.businessgraph.io/Identifier/10711315> <http://www.w3.org/2004/02/skos/core#notation> "10711315" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/10711315> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "Swindon" ;
+	<http://www.w3.org/ns/locn#postCode> "SN3 2AG" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "182 Shaftesbury Avenue" ;
+	<http://www.w3.org/ns/locn#fullAddress> "182 Shaftesbury Avenue Swindon SN3 2AG" .
+
+<http://data.businessgraph.io/Company/04155922> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/04155922> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON ELECTRONICS LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2001-02-07T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2002-11-19T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON ELECTRONICS LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/04155922> .
+
+<http://data.businessgraph.io/Identifier/04155922> <http://www.w3.org/2004/02/skos/core#notation> "04155922" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/04155922> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "LONDON" ;
+	<http://www.w3.org/ns/locn#postCode> "E7 9JJ" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "13 NORWICH ROAD FOREST GATE" ;
+	<http://www.w3.org/ns/locn#fullAddress> "13 NORWICH ROAD FOREST GATE LONDON E7 9JJ" .
+
+<http://data.businessgraph.io/Company/00525928> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/00525928> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON EXPORT LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1953-11-19T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2000-03-21T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON EXPORT LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/00525928> .
+
+<http://data.businessgraph.io/Identifier/00525928> <http://www.w3.org/2004/02/skos/core#notation> "00525928" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/00525928> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "BRISTOL" ;
+	<http://www.w3.org/ns/locn#postCode> "BS1 2JJ" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "GREYFRIARS LEWINS MEAD" ;
+	<http://www.w3.org/ns/locn#fullAddress> "GREYFRIARS LEWINS MEAD BRISTOL BS1 2JJ" .
+
+<http://data.businessgraph.io/Company/08696623> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/08696623> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON GOLD TRADING (2013) LTD" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2013-09-19T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2015-05-05T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON GOLD TRADING (2013) LTD" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/08696623> .
+
+<http://data.businessgraph.io/Identifier/08696623> <http://www.w3.org/2004/02/skos/core#notation> "08696623" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/08696623> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "London" ;
+	<http://www.w3.org/ns/locn#postCode> "EC2A 3AH" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "114-116 Curtain Road" ;
+	<http://www.w3.org/ns/locn#fullAddress> "114-116 Curtain Road London EC2A 3AH" .
+
+<http://data.businessgraph.io/Company/07855773> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/07855773> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON GOLD TRADING LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2011-11-22T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2014-02-11T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON GOLD TRADING LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/07855773> .
+
+<http://data.businessgraph.io/Identifier/07855773> <http://www.w3.org/2004/02/skos/core#notation> "07855773" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/07855773> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "London" ;
+	<http://www.w3.org/ns/locn#postCode> "EC2A 3AH" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "114-116 Curtain Road" ;
+	<http://www.w3.org/ns/locn#fullAddress> "114-116 Curtain Road London EC2A 3AH" .
+
+<http://data.businessgraph.io/Company/07104149> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/07104149> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON GREEN LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2009-12-14T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2013-05-07T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON GREEN LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/07104149> .
+
+<http://data.businessgraph.io/Identifier/07104149> <http://www.w3.org/2004/02/skos/core#notation> "07104149" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/07104149> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "UNITED KINGDOM" ;
+	<http://www.w3.org/ns/locn#postCode> "BB1 6LR" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "10 PLANE STREET BLACKBURN LANCASHIRE" ;
+	<http://www.w3.org/ns/locn#fullAddress> "10 PLANE STREET BLACKBURN LANCASHIRE UNITED KINGDOM BB1 6LR" .
+
+<http://data.businessgraph.io/Company/01331119> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/01331119> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON GROUP LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1977-09-22T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON GROUP LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Liquidation" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/01331119> .
+
+<http://data.businessgraph.io/Identifier/01331119> <http://www.w3.org/2004/02/skos/core#notation> "01331119" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/01331119> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "St Albans" ;
+	<http://www.w3.org/ns/locn#postCode> "AL1 3RD" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "C/O Frp Advisory Llp 4 Beaconsfield Road" ;
+	<http://www.w3.org/ns/locn#fullAddress> "C/O Frp Advisory Llp 4 Beaconsfield Road St Albans Hertfordshire AL1 3RD" .
+
+<http://data.businessgraph.io/Company/03640910> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/03640910> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON LEASING LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1998-09-30T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2006-04-11T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON LEASING LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/03640910> .
+
+<http://data.businessgraph.io/Identifier/03640910> <http://www.w3.org/2004/02/skos/core#notation> "03640910" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/03640910> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "ESSEX" ;
+	<http://www.w3.org/ns/locn#postCode> "IG8 8FH" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "TERESA GAVIN HOUSE SOUTHEND ROAD WOODFORD GREEN" ;
+	<http://www.w3.org/ns/locn#fullAddress> "TERESA GAVIN HOUSE SOUTHEND ROAD WOODFORD GREEN ESSEX IG8 8FH" .
+
+<http://data.businessgraph.io/Company/09983519> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/09983519> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON LTD" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2016-02-02T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON LTD" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/09983519> .
+
+<http://data.businessgraph.io/Identifier/09983519> <http://www.w3.org/2004/02/skos/core#notation> "09983519" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/09983519> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "London" ;
+	<http://www.w3.org/ns/locn#postCode> "E15 2PP" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "Sagacity 20 High Street" ;
+	<http://www.w3.org/ns/locn#fullAddress> "Sagacity 20 High Street London E15 2PP" .
+
+<http://data.businessgraph.io/Company/06831944> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/06831944> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON MEDIA LTD" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2009-02-27T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2016-07-19T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON MEDIA LTD" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/06831944> .
+
+<http://data.businessgraph.io/Identifier/06831944> <http://www.w3.org/2004/02/skos/core#notation> "06831944" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/06831944> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "Ammanford" ;
+	<http://www.w3.org/ns/locn#postCode> "SA18 1EN" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "42 Leyshon Road Gwaun Cae Gurwen" ;
+	<http://www.w3.org/ns/locn#fullAddress> "42 Leyshon Road Gwaun Cae Gurwen Ammanford Dyfed SA18 1EN" .
+
+<http://data.businessgraph.io/Company/03365505> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/03365505> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON MEWS FLAT MANAGEMENT COMPANY LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1997-05-06T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON MEWS FLAT MANAGEMENT COMPANY LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/03365505> .
+
+<http://data.businessgraph.io/Identifier/03365505> <http://www.w3.org/2004/02/skos/core#notation> "03365505" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/03365505> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "Enfield" ;
+	<http://www.w3.org/ns/locn#postCode> "EN2 0DW" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "85 Lancaster Road" ;
+	<http://www.w3.org/ns/locn#fullAddress> "85 Lancaster Road Enfield EN2 0DW" .
+
+<http://data.businessgraph.io/Company/03364959> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/03364959> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON MEWS RESIDENTS ASSOCIATION LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1997-05-02T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON MEWS RESIDENTS ASSOCIATION LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/03364959> .
+
+<http://data.businessgraph.io/Identifier/03364959> <http://www.w3.org/2004/02/skos/core#notation> "03364959" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/03364959> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "Enfield" ;
+	<http://www.w3.org/ns/locn#postCode> "EN2 0DW" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "85 Lancaster Road" ;
+	<http://www.w3.org/ns/locn#fullAddress> "85 Lancaster Road Enfield EN2 0DW" .
+
+<http://data.businessgraph.io/Company/03025134> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/03025134> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON MICHAELHOUSE CONTRACTS LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1995-02-22T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "1996-06-18T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON MICHAELHOUSE CONTRACTS LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/03025134> .
+
+<http://data.businessgraph.io/Identifier/03025134> <http://www.w3.org/2004/02/skos/core#notation> "03025134" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/03025134> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "LONDON" ;
+	<http://www.w3.org/ns/locn#postCode> "EC2M 7LR" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "ELDON HOUSE 2-3 ELDON STREET" ;
+	<http://www.w3.org/ns/locn#fullAddress> "ELDON HOUSE 2-3 ELDON STREET LONDON EC2M 7LR" .
+
+<http://data.businessgraph.io/Company/01652185> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/01652185> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON PARKER ENTERTAINMENTS LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1982-07-19T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2000-09-19T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON PARKER ENTERTAINMENTS LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/01652185> .
+
+<http://data.businessgraph.io/Identifier/01652185> <http://www.w3.org/2004/02/skos/core#notation> "01652185" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/01652185> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "ESSEX" ;
+	<http://www.w3.org/ns/locn#postCode> "IG1 3RD" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "THE CHARTER HOUSE CHARTER MEWS 18 BEEHIVE LANE ILFORD" ;
+	<http://www.w3.org/ns/locn#fullAddress> "THE CHARTER HOUSE CHARTER MEWS 18 BEEHIVE LANE ILFORD ESSEX IG1 3RD" .
+
+<http://data.businessgraph.io/Company/04527231> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/04527231> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON PLANT ARCHITECTS LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2002-09-05T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON PLANT ARCHITECTS LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/04527231> .
+
+<http://data.businessgraph.io/Identifier/04527231> <http://www.w3.org/2004/02/skos/core#notation> "04527231" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/04527231> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "London" ;
+	<http://www.w3.org/ns/locn#postCode> "EC1V 8BB" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "Seatem House 39 Moreland Street" ;
+	<http://www.w3.org/ns/locn#fullAddress> "Seatem House 39 Moreland Street London EC1V 8BB" .
+
+<http://data.businessgraph.io/Company/00371065> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/00371065> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON PRODUCTS LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON PRODUCTS LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/00371065> .
+
+<http://data.businessgraph.io/Identifier/00371065> <http://www.w3.org/2004/02/skos/core#notation> "00371065" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/00371065> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "0" ;
+	<http://www.w3.org/ns/locn#postCode> "0" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "0" ;
+	<http://www.w3.org/ns/locn#fullAddress> "0" .
+
+<http://data.businessgraph.io/Company/06827713> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/06827713> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON PROPERTY LTD" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2009-02-23T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON PROPERTY LTD" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/06827713> .
+
+<http://data.businessgraph.io/Identifier/06827713> <http://www.w3.org/2004/02/skos/core#notation> "06827713" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/06827713> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "London" ;
+	<http://www.w3.org/ns/locn#postCode> "SW9 8NJ" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "Room 204 Bon Marche Centre 241-251 Ferndale Road" ;
+	<http://www.w3.org/ns/locn#fullAddress> "Room 204 Bon Marche Centre 241-251 Ferndale Road London SW9 8NJ" .
+
+<http://data.businessgraph.io/Company/02291357> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/02291357> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON RETAIL CONSULTANCY COMPANY LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1988-08-31T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON RETAIL CONSULTANCY COMPANY LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/02291357> .
+
+<http://data.businessgraph.io/Identifier/02291357> <http://www.w3.org/2004/02/skos/core#notation> "02291357" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/02291357> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "London" ;
+	<http://www.w3.org/ns/locn#postCode> "SW9 8BJ" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "Bon Marche Centre 241-251 Ferndale Road" ;
+	<http://www.w3.org/ns/locn#fullAddress> "Bon Marche Centre 241-251 Ferndale Road London SW9 8BJ" .
+
+<http://data.businessgraph.io/Company/OC381492> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/OC381492> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON ROGERS DEVELOPMENTS LLP" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2013-01-09T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON ROGERS DEVELOPMENTS LLP" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/OC381492> .
+
+<http://data.businessgraph.io/Identifier/OC381492> <http://www.w3.org/2004/02/skos/core#notation> "OC381492" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/OC381492> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "London" ;
+	<http://www.w3.org/ns/locn#postCode> "EC4V 6BW" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "35 New Bridge Street" ;
+	<http://www.w3.org/ns/locn#fullAddress> "35 New Bridge Street London EC4V 6BW" .
+
+<http://data.businessgraph.io/Company/OC400193> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/OC400193> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON ROGERS HP DEVELOPMENTS LLP" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2015-06-04T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON ROGERS HP DEVELOPMENTS LLP" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/OC400193> .
+
+<http://data.businessgraph.io/Identifier/OC400193> <http://www.w3.org/2004/02/skos/core#notation> "OC400193" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/OC400193> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "London" ;
+	<http://www.w3.org/ns/locn#postCode> "EC4V 6BW" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "35 New Bridge Street" ;
+	<http://www.w3.org/ns/locn#fullAddress> "35 New Bridge Street London EC4V 6BW" .
+
+<http://data.businessgraph.io/Company/08774773> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/08774773> ;
+	<http://www.w3.org/ns/regorg#legalName> "LIPTON TRAINING LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2013-11-14T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2015-06-23T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "LIPTON TRAINING LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/08774773> .
+
+<http://data.businessgraph.io/Identifier/08774773> <http://www.w3.org/2004/02/skos/core#notation> "08774773" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/08774773> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "Bootle" ;
+	<http://www.w3.org/ns/locn#postCode> "L20 8PU" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "Unit 7 Lipton Close" ;
+	<http://www.w3.org/ns/locn#fullAddress> "Unit 7 Lipton Close Bootle Merseyside L20 8PU" .
+
+<http://data.businessgraph.io/Company/03443827> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/03443827> ;
+	<http://www.w3.org/ns/regorg#legalName> "M.D. LIPTON COFFEE COMPANY LTD." ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1997-10-02T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2005-04-05T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "M.D. LIPTON COFFEE COMPANY LTD." ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/03443827> .
+
+<http://data.businessgraph.io/Identifier/03443827> <http://www.w3.org/2004/02/skos/core#notation> "03443827" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/03443827> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "LONDON" ;
+	<http://www.w3.org/ns/locn#postCode> "NW1 3ER" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "ACRE HOUSEAD 11-15 WILLIAM ROAD" ;
+	<http://www.w3.org/ns/locn#fullAddress> "ACRE HOUSEAD 11-15 WILLIAM ROAD LONDON NW1 3ER" .
+
+<http://data.businessgraph.io/Company/06445070> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/06445070> ;
+	<http://www.w3.org/ns/regorg#legalName> "MARSH CERAMICS LTD" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2007-12-05T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2009-09-15T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "MARSH CERAMICS LTD" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/06445070> .
+
+<http://data.businessgraph.io/Identifier/06445070> <http://www.w3.org/2004/02/skos/core#notation> "06445070" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/06445070> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "SHEFFIELD" ;
+	<http://www.w3.org/ns/locn#postCode> "S21 1AH" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "16 BRIDGE STREET KILLAMARSH" ;
+	<http://www.w3.org/ns/locn#fullAddress> "16 BRIDGE STREET KILLAMARSH SHEFFIELD S21 1AH" .
+
+<http://data.businessgraph.io/Company/BR012898> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/BR012898> ;
+	<http://www.w3.org/ns/regorg#legalName> "P LIPTON & SONS LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1998-04-12T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2015-08-14T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "P LIPTON & SONS LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Converted / Closed" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/BR012898> .
+
+<http://data.businessgraph.io/Identifier/BR012898> <http://www.w3.org/2004/02/skos/core#notation> "BR012898" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/BR012898> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "0" ;
+	<http://www.w3.org/ns/locn#postCode> "0" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "65 O'NEILL ROAD NEWTONABBEY CO ANTRIM N. IRELAND BT36 6UN" ;
+	<http://www.w3.org/ns/locn#fullAddress> "65 O'NEILL ROAD NEWTONABBEY CO ANTRIM N. IRELAND BT36 6UN" .
+
+<http://data.businessgraph.io/Company/SF000766> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/SF000766> ;
+	<http://www.w3.org/ns/regorg#legalName> "P LIPTON & SONS LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1998-04-12T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2015-08-14T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "P LIPTON & SONS LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Converted / Closed" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/SF000766> .
+
+<http://data.businessgraph.io/Identifier/SF000766> <http://www.w3.org/2004/02/skos/core#notation> "SF000766" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/SF000766> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "0" ;
+	<http://www.w3.org/ns/locn#postCode> "0" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "65 O'NEILL ROAD NEWTONABBEY CO ANTRIM N. IRELAND BT36 6UN" ;
+	<http://www.w3.org/ns/locn#fullAddress> "65 O'NEILL ROAD NEWTONABBEY CO ANTRIM N. IRELAND BT36 6UN" .
+
+<http://data.businessgraph.io/Company/NI033274> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/NI033274> ;
+	<http://www.w3.org/ns/regorg#legalName> "P LIPTON AND SONS LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1997-11-19T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "P LIPTON AND SONS LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/NI033274> .
+
+<http://data.businessgraph.io/Identifier/NI033274> <http://www.w3.org/2004/02/skos/core#notation> "NI033274" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/NI033274> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "Belfast" ;
+	<http://www.w3.org/ns/locn#postCode> "BT1 3GS" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "Marlborough House 30 Victoria Street" ;
+	<http://www.w3.org/ns/locn#fullAddress> "Marlborough House 30 Victoria Street Belfast BT1 3GS" .
+
+<http://data.businessgraph.io/Company/08845969> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/08845969> ;
+	<http://www.w3.org/ns/regorg#legalName> "R LIPTON & CO LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2014-01-15T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2015-07-07T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "R LIPTON & CO LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/08845969> .
+
+<http://data.businessgraph.io/Identifier/08845969> <http://www.w3.org/2004/02/skos/core#notation> "08845969" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/08845969> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "London" ;
+	<http://www.w3.org/ns/locn#postCode> "SW15 2BF" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "2 Stamford Square" ;
+	<http://www.w3.org/ns/locn#fullAddress> "2 Stamford Square London SW15 2BF" .
+
+<http://data.businessgraph.io/Company/03347551> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/03347551> ;
+	<http://www.w3.org/ns/regorg#legalName> "S.M. LIPTON & SON (ROOFING) LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1997-04-08T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2003-01-14T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "S.M. LIPTON & SON (ROOFING) LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/03347551> .
+
+<http://data.businessgraph.io/Identifier/03347551> <http://www.w3.org/2004/02/skos/core#notation> "03347551" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/03347551> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "LONDON" ;
+	<http://www.w3.org/ns/locn#postCode> "E10 7LA" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "SUITE 1 NELSON HOUSE 341 LEA BRIDGE ROAD LEYTON" ;
+	<http://www.w3.org/ns/locn#fullAddress> "SUITE 1 NELSON HOUSE 341 LEA BRIDGE ROAD LEYTON LONDON E10 7LA" .
+
+<http://data.businessgraph.io/Company/04169364> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/04169364> ;
+	<http://www.w3.org/ns/regorg#legalName> "SINGER & LIPTON LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2001-02-28T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2003-07-08T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "SINGER & LIPTON LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/04169364> .
+
+<http://data.businessgraph.io/Identifier/04169364> <http://www.w3.org/2004/02/skos/core#notation> "04169364" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/04169364> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "LONDON" ;
+	<http://www.w3.org/ns/locn#postCode> "SW1Y 4ZT" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "1ST CONTACT CLYDESDALE BANK HOUSE 33 REGENT STREET" ;
+	<http://www.w3.org/ns/locn#fullAddress> "1ST CONTACT CLYDESDALE BANK HOUSE 33 REGENT STREET LONDON SW1Y 4ZT" .
+
+<http://data.businessgraph.io/Company/SC377753> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/SC377753> ;
+	<http://www.w3.org/ns/regorg#legalName> "SIR THOMAS LIPTON FOUNDATION" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2010-04-29T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "SIR THOMAS LIPTON FOUNDATION" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/SC377753> .
+
+<http://data.businessgraph.io/Identifier/SC377753> <http://www.w3.org/2004/02/skos/core#notation> "SC377753" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/SC377753> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "Glasgow" ;
+	<http://www.w3.org/ns/locn#postCode> "G76 6AZ" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "PO BOX 26332 Rowallan Lane" ;
+	<http://www.w3.org/ns/locn#fullAddress> "PO BOX 26332 Rowallan Lane Glasgow G76 6AZ" .
+
+<http://data.businessgraph.io/Company/02550885> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/02550885> ;
+	<http://www.w3.org/ns/regorg#legalName> "SOURCE PAYROLL SERVICES LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1990-10-22T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "SOURCE PAYROLL SERVICES LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/02550885> .
+
+<http://data.businessgraph.io/Identifier/02550885> <http://www.w3.org/2004/02/skos/core#notation> "02550885" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/02550885> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "Newton Abbot" ;
+	<http://www.w3.org/ns/locn#postCode> "TQ12 4AA" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "Wessex House Teign Road" ;
+	<http://www.w3.org/ns/locn#fullAddress> "Wessex House Teign Road Newton Abbot Devon TQ12 4AA" .
+
+<http://data.businessgraph.io/Company/05050489> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/05050489> ;
+	<http://www.w3.org/ns/regorg#legalName> "T LIPTON (F) LTD" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2004-02-20T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2009-08-04T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "T LIPTON (F) LTD" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/05050489> .
+
+<http://data.businessgraph.io/Identifier/05050489> <http://www.w3.org/2004/02/skos/core#notation> "05050489" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/05050489> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "WEST YORKSHIRE" ;
+	<http://www.w3.org/ns/locn#postCode> "LS14 1AB" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "7 LIMEWOOD WAY LEEDS" ;
+	<http://www.w3.org/ns/locn#fullAddress> "7 LIMEWOOD WAY LEEDS WEST YORKSHIRE LS14 1AB" .
+
+<http://data.businessgraph.io/Company/04940357> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/04940357> ;
+	<http://www.w3.org/ns/regorg#legalName> "THE NUTTERY LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2003-10-22T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "THE NUTTERY LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Liquidation" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/04940357> .
+
+<http://data.businessgraph.io/Identifier/04940357> <http://www.w3.org/2004/02/skos/core#notation> "04940357" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/04940357> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "St Albans" ;
+	<http://www.w3.org/ns/locn#postCode> "AL1 3RD" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "C/O FRP ADVISORY LLP 4 Beaconsfield Road" ;
+	<http://www.w3.org/ns/locn#fullAddress> "C/O FRP ADVISORY LLP 4 Beaconsfield Road St Albans Hertfordshire AL1 3RD" .
+
+<http://data.businessgraph.io/Company/00458540> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/00458540> ;
+	<http://www.w3.org/ns/regorg#legalName> "UNIDIS FIFTY LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1948-09-06T00:00:00.000+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "UNIDIS FIFTY LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/00458540> .
+
+<http://data.businessgraph.io/Identifier/00458540> <http://www.w3.org/2004/02/skos/core#notation> "00458540" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/00458540> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "LONDON" ;
+	<http://www.w3.org/ns/locn#postCode> "SE1 2AF" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "1 MORE LONDON PLACE" ;
+	<http://www.w3.org/ns/locn#fullAddress> "1 MORE LONDON PLACE LONDON SE1 2AF" .
+
+<http://data.businessgraph.io/Company/00230658> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/00230658> ;
+	<http://www.w3.org/ns/regorg#legalName> "UNIDIS TWENTY TWO LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "1928-05-22T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "UNIDIS TWENTY TWO LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Dissolved" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/00230658> .
+
+<http://data.businessgraph.io/Identifier/00230658> <http://www.w3.org/2004/02/skos/core#notation> "00230658" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/00230658> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "LONDON" ;
+	<http://www.w3.org/ns/locn#postCode> "SE1 2AF" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "1 MORE LONDON PLACE" ;
+	<http://www.w3.org/ns/locn#fullAddress> "1 MORE LONDON PLACE LONDON SE1 2AF" .
+
+<http://data.businessgraph.io/Company/00056350> a <http://www.w3.org/ns/regorg#RegisteredOrganization> ;
+	<http://www.w3.org/ns/regorg#registration> <http://data.businessgraph.io/Identifier/00056350> ;
+	<http://www.w3.org/ns/regorg#legalName> "UNILEVER INNOVATIONS LIMITED" ;
+	<http://dbpedia.org/ontology/jurisdiction> "gb" ;
+	<http://schema.org/foundingDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://schema.org/dissolutionDate> "2099-12-31T00:00:00.000+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "UNILEVER INNOVATIONS LIMITED" ;
+	<http://data.businessgraph.io/ontology#orgStatusText> "Active" ;
+	<http://www.w3.org/ns/org#hasRegisteredSite> <http://data.businessgraph.io/Address/00056350> .
+
+<http://data.businessgraph.io/Identifier/00056350> <http://www.w3.org/2004/02/skos/core#notation> "00056350" ;
+	a <http://www.w3.org/ns/adms#Identifier> .
+
+<http://data.businessgraph.io/Address/00056350> a <http://www.w3.org/ns/locn#Address> ;
+	<http://www.w3.org/ns/locn#postName> "London" ;
+	<http://www.w3.org/ns/locn#postCode> "EC4Y 0DY" ;
+	<http://www.w3.org/ns/locn#thoroughfare> "Unilever House 100 Victoria Embankment" ;
+	<http://www.w3.org/ns/locn#fullAddress> "Unilever House 100 Victoria Embankment London EC4Y 0DY" .

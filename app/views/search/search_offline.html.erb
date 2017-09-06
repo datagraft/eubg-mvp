@@ -18,6 +18,21 @@
     </div>
 
     <div>
+        <% if @searchResultLocal && @searchResultLocal.any? %>
+        <%= will_paginate @searchResultLocal %>
+        <p>
+            <% @searchResultLocal.each do |company| %>
+            <%= link_to company["legalName"]["value"], company_info_offline_path( :ocJurisdictionCode => "#{company["jurisdiction"]["value"]}", :ocCompanyNumber => "#{company["identifier"]["value"]}", :atokaCompanyNumber => "", :MVPMode => "#{@MVPMode}" ), 
+            :html => { :class => "btn" } %>
+
+            <br/>
+            <% end %>
+        </p>
+        <%= will_paginate @searchResultLocal %>
+        <% end %>
+        
+        
+        
         <% if @resultSet && @resultSet.any? %>
         <%= will_paginate @resultSet %>
         <p>

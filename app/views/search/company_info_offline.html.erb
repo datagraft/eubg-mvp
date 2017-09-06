@@ -1,0 +1,111 @@
+<% provide(:title, "Compnay info")  %>
+<div class="container">
+
+<% resp = @ocCompanyInfoOffline %>
+    
+<h3> <%= resp[0]["legalName"]["value"] %> </h3>
+
+<table class="table table-responsive table-bordered table-condensed">
+        <tbody>
+            <tr>
+                <th class="active">Company</th>
+                <th class="active">Data from OpenCorporates (RDF database)</th>
+            </tr>
+            <tr>
+                <td>Legal Name</td>
+                <td> <%= resp[0]["legalName"]["value"] %> </td>
+            </tr>
+            <tr>
+                <td>Trading As</td>
+                <td> &nbsp; </td>
+            </tr>
+            <tr>
+                <td>Startup</td>
+                <td> &nbsp; </td>
+            </tr>
+            <tr>
+                <td>Publicly Traded</td>
+                <td> &nbsp; </td>
+            </tr>
+            <tr>
+                <th colspan="2" class="active">Company Dates and Status</th>
+            </tr>
+            <tr>
+                <td>Incorporation Date</td>
+                <td> <%= resp[0]["foundingDate"]["value"] %> </td>
+            </tr>
+            <tr>
+                <td>Dissolution Date</td>
+                <td> <%= resp[0]["dissolutionDate"]["value"] %> </td>
+            </tr>
+            <tr>
+                <td>Current Status</td>
+                <td> <%= resp[0]["orgStatusText"]["value"] %> </td>
+            </tr>
+            <tr>
+                <th colspan="2" class="active">Company Type</th>
+            </tr>
+            <tr>
+                <td>Company Type Name</td>
+                <td> &nbsp; </td>
+            </tr>
+            <tr>
+                <td>Public Sector Organization</td>
+                <td> &nbsp; </td>
+            </tr>
+            <tr>
+                <td>Public Sector: type of entity</td>
+                <td> &nbsp; </td>
+            <tr>
+                <th colspan="2" class="active">Economic Classification</th>
+            </tr>
+            <tr>
+                <td>UKSIC</td>
+                <td> &nbsp; </td>
+            </tr>
+            <tr>
+                <th colspan="2" class="active">Physical Presence</th>
+            </tr>
+            <tr>
+                <td>Registered Address</td>
+                <td> <%= resp[0]["fullAddress"]["value"] %> </td>
+            </tr>
+            <tr>
+                <td>Jurisdiction / Country Code</td>
+                <td> <%= resp[0]["jurisdiction"]["value"] %> </td>
+            </tr>
+            <tr>
+                <th colspan="2" class="active">Electronic Presence</th>
+            </tr>
+            <tr>
+                <td>Wikipedia URI</td>
+                <td> &nbsp; </td>
+            </tr>
+            <tr>
+                <th colspan="2" class="active">Identifiers</th>
+            </tr>
+            <tr>
+                <td>Company Number</td>
+                <td> <%= resp[0]["identifier"]["value"] %> </td>
+            </tr>
+            <tr>
+                <td>Companies House Company Number</td>
+                <td> &nbsp; </td>
+            </tr>
+            <tr>
+                <td>Atoka ID</td>
+                <td> &nbsp; </td>
+            </tr>
+            <tr>
+                <td>Open Corporates URI</td>
+                <td> &nbsp; </td>
+            </tr>
+            <tr>
+                <td>IT IPA Code</td>
+                <td> &nbsp; </td>
+            </tr>
+        </tbody>
+    </table> 
+    
+    
+</div>

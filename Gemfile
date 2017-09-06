@@ -10,6 +10,8 @@ end
 gem 'rails', '~> 5.0.1'
 # Make use of Boostrap for CSS 
 gem 'bootstrap-sass', '3.3.7'
+# Use rest-client, a simple HTTP and REST client for Ruby, inspired by the Sinatra microframework style of specifying actions: get, put, post, delete.
+gem 'rest-client', '~> 2.0', '>= 2.0.2'
 # Use HTTParty to capture responses, which in turn can be used to parse JSON responses
 gem 'httparty', '0.13.7'
 # Use postgresql as the database for Active Record

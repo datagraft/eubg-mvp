@@ -10,7 +10,8 @@ class SearchController < ApplicationController
     def search_offline
         newSearch = SearchOffline.new({})   
         newSearch.execute_search
-        @resultSet = newSearch.searchResult.paginate(:page => params[:page], :per_page => 30)
+        #@resultSet = newSearch.searchResult.paginate(:page => params[:page], :per_page => 30)
+        @searchResultLocal = newSearch.searchResultLocal.paginate(:page => params[:page], :per_page => 30)
         @MVPMode = "offline"
     end
 
@@ -20,11 +21,17 @@ class SearchController < ApplicationController
             ocCompany = newSearch.search_company_oc(params[:ocJurisdictionCode], params[:ocCompanyNumber]) 
             atokaCompany = newSearch.search_company_atoka(params[:atokaCompanyNumber]) 
             @companyInfo = [ocCompany, atokaCompany]
-        else 
+        end
+    end
+
+    def company_info_offline
+        if params[:MVPMode] == "offline" 
             newSearch = SearchOffline.new()
             ocCompany = newSearch.search_company_oc_offline(params[:ocCompanyNumber]) 
-            atokaCompany = newSearch.search_company_atoka_offline(params[:atokaCompanyNumber]) 
-            @companyInfo = [ocCompany, atokaCompany]
+            @ocCompanyInfoOffline = ocCompany
+            
+            #atokaCompany = newSearch.search_company_atoka_offline(params[:atokaCompanyNumber]) 
+            #@companyInfo = [ocCompany, atokaCompany]
         end
     end
 

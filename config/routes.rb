@@ -6,6 +6,8 @@ Rails.application.routes.draw do
     
     get '/company_info', to: 'search#company_info'
     
+    get '/company_info_offline', to: 'search#company_info_offline'
+    
     get '/help', to: 'static_pages#help'
     
     get '/about', to: 'static_pages#about'
