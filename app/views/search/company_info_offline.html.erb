@@ -2,6 +2,10 @@
 <div class="container">
 
 <% resp = @ocCompanyInfoOffline %>
+<% foundingDate = resp[0]["foundingDate"]["value"] %>
+<% dissolutionDate = resp[0]["dissolutionDate"]["value"] %>
+<% fd = DateTime.parse(foundingDate) %>
+<% dd = DateTime.parse(dissolutionDate) %>
     
 <h3> <%= resp[0]["legalName"]["value"] %> </h3>
 
@@ -32,11 +36,11 @@
             </tr>
             <tr>
                 <td>Incorporation Date</td>
-                <td> <%= resp[0]["foundingDate"]["value"] %> </td>
+                <td> <%= fd.utc() %> </td>
             </tr>
             <tr>
                 <td>Dissolution Date</td>
-                <td> <%= resp[0]["dissolutionDate"]["value"] %> </td>
+                <td> <%= dd.utc() %> </td>
             </tr>
             <tr>
                 <td>Current Status</td>

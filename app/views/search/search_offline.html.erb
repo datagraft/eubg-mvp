@@ -31,28 +31,6 @@
         <%= will_paginate @searchResultLocal %>
         <% end %>
         
-        
-        
-        <% if @resultSet && @resultSet.any? %>
-        <%= will_paginate @resultSet %>
-        <p>
-            <% @resultSet.each do |company| %>
-            <%= link_to company["company"]["name"], company_info_path( :ocJurisdictionCode => "#{company["company"]["jurisdiction_code"]}", :ocCompanyNumber => "#{company["company"]["company_number"]}", :atokaCompanyNumber => "#{company["company"]["atoka_company_id"]}", :MVPMode => "#{@MVPMode}" ), :html => { :class => "btn" } %> 
-
-            <% if company["company"]["atoka_company_id"] %>
-            <%= image_tag("AtokaLogoSmall.png", size: "22x22") %>
-            <% end %>
-
-            <% if company["company"]["source"] && company["company"]["source"]["publisher"] == "Brønnøysundregistrene" %>
-            <%= image_tag("BrregLogoSmall.png", size: "22x22") %>
-            <% end %>
-
-            <%= image_tag("OCLogoSmall.png", size: "22x22") %>
-            <br/>
-            <% end %>
-        </p>
-        <%= will_paginate @resultSet %>
-        <% end %>
     </div>
 
 </div>
