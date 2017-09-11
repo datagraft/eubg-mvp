@@ -8,10 +8,9 @@ class SearchController < ApplicationController
     end
 
     def search_offline
-        newSearch = SearchOffline.new({})   
+        newSearch = SearchOffline.new({company: params[:search], country: params[:jurisdictionFilter]})   
         newSearch.execute_search
-        #@resultSet = newSearch.searchResult.paginate(:page => params[:page], :per_page => 30)
-        @searchResultLocal = newSearch.searchResultLocal.paginate(:page => params[:page], :per_page => 30)
+        @searchResultSetLocal = newSearch.searchResultLocal.paginate(:page => params[:page], :per_page => 30)
         @MVPMode = "offline"
     end
 

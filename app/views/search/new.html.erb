@@ -1,4 +1,4 @@
-<% provide(:title, "Search")  %>
+<% provide(:title, "Federated Search")  %>
 <div class="container jumbotron">
 
     <div class="row">
@@ -12,7 +12,7 @@
                 <%= label_tag 'country' %>
                 <%= select_tag :jurisdictionFilter, options_for_select([["All", ""], ["Norway", "no"], ["Italy", "it"], ["Great Britain", "gb"]]), :class => 'form-control' %>
             </div>
-            <%= button_tag "Search", :name => nil, :class => "btn btn-default" %>
+            <%= button_tag "Search (Federated)", :name => nil, :class => "btn btn-default" %>
         </div>
         <% end %>
     </div>
