@@ -1,1 +1,1626 @@
-[{"base":{"active":true,"founded":"1997-11-19","inGroup":false,"legalForms":[{"level":2,"name":"Private Limited Company"}],"legalName":"P LIPTON AND SONS LIMITED","rea":"NI033274","registeredAddress":{"fullAddress":"MARLBOROUGH HOUSE 30 VICTORIA STREET BELFAST BT1 3GS","municipality":"BELFAST","postcode":"BT1 3GS","streetName":"MARLBOROUGH HOUSE 30 VICTORIA STREET"},"startup":false},"country":"uk","economics":{"balanceSheets":[{"assets":200393,"capitalStock":105000,"date":"2016-03-31","latest":true,"year":2016},{"assets":194821,"capitalStock":105000,"date":"2015-03-31","latest":false,"year":2015}],"capitalStock":{"value":105000}},"entities":{"de":[{"name":"DBA","score":0.3333333333333333,"uri":"http://de.wikipedia.org/wiki/Doing_business_as"},{"name":"Gemeinschaft","score":0.3333333333333333,"uri":"http://de.wikipedia.org/wiki/Gemeinschaft"},{"name":"Highlands and Islands","score":0.3333333333333333,"uri":"http://de.wikipedia.org/wiki/Highlands_and_Islands"},{"name":"Industrie","score":0.3333333333333333,"uri":"http://de.wikipedia.org/wiki/Industrie"},{"name":"Lipton","score":0.3333333333333333,"uri":"http://de.wikipedia.org/wiki/Lipton_%28Marke%29"},{"name":"Marke","score":0.3333333333333333,"uri":"http://de.wikipedia.org/wiki/Marke_%28Marketing%29"},{"name":"McDonald’s","score":0.3333333333333333,"uri":"http://de.wikipedia.org/wiki/McDonald%E2%80%99s"},{"name":"Schottland","score":0.3333333333333333,"uri":"http://de.wikipedia.org/wiki/Schottland"},{"name":"South Ayrshire","score":0.3333333333333333,"uri":"http://de.wikipedia.org/wiki/South_Ayrshire"}],"en":[{"name":"Brand","score":0.3333333333333333,"uri":"http://en.wikipedia.org/wiki/Brand"},{"name":"Community","score":0.3333333333333333,"uri":"http://en.wikipedia.org/wiki/Community"},{"name":"Highlands and Islands","score":0.3333333333333333,"uri":"http://en.wikipedia.org/wiki/Highlands_and_Islands"},{"name":"Industry","score":0.3333333333333333,"uri":"http://en.wikipedia.org/wiki/Industry"},{"name":"Lipton","score":0.3333333333333333,"uri":"http://en.wikipedia.org/wiki/Lipton"},{"name":"McDonald's","score":0.3333333333333333,"uri":"http://en.wikipedia.org/wiki/McDonald%27s"},{"name":"Scotland","score":0.3333333333333333,"uri":"http://en.wikipedia.org/wiki/Scotland"},{"name":"South Ayrshire","score":0.3333333333333333,"uri":"http://en.wikipedia.org/wiki/South_Ayrshire"},{"name":"Trade name","score":0.3333333333333333,"uri":"http://en.wikipedia.org/wiki/Trade_name"},{"name":"Word-of-mouth marketing","score":0.3333333333333333,"uri":"http://en.wikipedia.org/wiki/Word-of-mouth_marketing"}],"fr":[{"name":"Écosse","score":0.3333333333333333,"uri":"http://fr.wikipedia.org/wiki/%C3%89cosse"},{"name":"Communauté","score":0.3333333333333333,"uri":"http://fr.wikipedia.org/wiki/Communaut%C3%A9"},{"name":"Industrie","score":0.3333333333333333,"uri":"http://fr.wikipedia.org/wiki/Industrie"},{"name":"Lipton","score":0.3333333333333333,"uri":"http://fr.wikipedia.org/wiki/Lipton"},{"name":"Marque","score":0.3333333333333333,"uri":"http://fr.wikipedia.org/wiki/Marque_%28marketing%29"},{"name":"McDonald's","score":0.3333333333333333,"uri":"http://fr.wikipedia.org/wiki/McDonald%27s"},{"name":"Nom commercial","score":0.3333333333333333,"uri":"http://fr.wikipedia.org/wiki/Nom_commercial"},{"name":"South Ayrshire","score":0.3333333333333333,"uri":"http://fr.wikipedia.org/wiki/South_Ayrshire"}],"it":[{"name":"Ayrshire Meridionale","score":0.3333333333333333,"uri":"http://it.wikipedia.org/wiki/Ayrshire_Meridionale"},{"name":"Comunità","score":0.3333333333333333,"uri":"http://it.wikipedia.org/wiki/Comunit%C3%A0"},{"name":"Industria","score":0.3333333333333333,"uri":"http://it.wikipedia.org/wiki/Industria"},{"name":"Lipton","score":0.3333333333333333,"uri":"http://it.wikipedia.org/wiki/Lipton"},{"name":"Marca","score":0.3333333333333333,"uri":"http://it.wikipedia.org/wiki/Marca_%28commercio%29"},{"name":"McDonald's","score":0.3333333333333333,"uri":"http://it.wikipedia.org/wiki/McDonald%27s"},{"name":"Scozia","score":0.3333333333333333,"uri":"http://it.wikipedia.org/wiki/Scozia"}],"pt":[{"name":"Comunidade","score":0.3333333333333333,"uri":"http://pt.wikipedia.org/wiki/Comunidade"},{"name":"Escócia","score":0.3333333333333333,"uri":"http://pt.wikipedia.org/wiki/Esc%C3%B3cia"},{"name":"Indústria","score":0.3333333333333333,"uri":"http://pt.wikipedia.org/wiki/Ind%C3%BAstria"},{"name":"Marca","score":0.3333333333333333,"uri":"http://pt.wikipedia.org/wiki/Marca"},{"name":"Marketing de boca-a-boca","score":0.3333333333333333,"uri":"http://pt.wikipedia.org/wiki/Marketing_de_boca_a_boca"},{"name":"McDonald's","score":0.3333333333333333,"uri":"http://pt.wikipedia.org/wiki/McDonald%27s"},{"name":"Nome fantasia","score":0.3333333333333333,"uri":"http://pt.wikipedia.org/wiki/Nome_fantasia"},{"name":"South Ayrshire","score":0.3333333333333333,"uri":"http://pt.wikipedia.org/wiki/South_Ayrshire"}]},"fullAddress":"MARLBOROUGH HOUSE 30 VICTORIA STREET BELFAST BT1 3GS","id":"6a870ce1a5af","locations":{"anyAddress":{"macroregions":["Scotland"],"municipalities":["BELFAST","Glasgow City","South Ayrshire"],"postcodes":["BT1 3GS","G41 5PL","KA1 5PD"],"provinces":["Glasgow City","South Ayrshire"],"regions":["South Western Scotland"]},"count":2,"items":[{"address":{"fullAddress":"SYKE FARM BOGEND TOLL SOUTH AYRSHIRE SCOTLAND KA1 5PD","macroregion":"Scotland","municipality":"South Ayrshire","postcode":"KA1 5PD","province":"South Ayrshire","region":"South Western Scotland","state":"United Kingdom","streetName":"SYKE FARM BOGEND TOLL"},"id":"185a6436607e"},{"address":{"fullAddress":"364 ALBERT DRIVE GLASGOW UNITED KINGDOM G41 5PL","macroregion":"Scotland","municipality":"Glasgow City","postcode":"G41 5PL","province":"Glasgow City","region":"South Western Scotland","state":"United Kingdom","streetName":"364 ALBERT DRIVE"},"id":"4976074af43d"}]},"name":"P LIPTON AND SONS LIMITED","web":{"description":"If you need a unique memorial crafting for your loved one, contact P Lipton Memorial Centre in Glasgow on 0141 429 7341 for service throughout Scotland.","keywords":["centre","lettering","lawn","designs","marble","headstone","leaf","tribute","inscription","scotland","inscriptions","gold","repair","stone","desk"],"languages":["en"],"websites":[{"active":true,"url":"http://pliptonmemorialcentre.co.uk"}]}},{"base":{"active":true,"ateco":[{"code":"47.89.04","description":"Commercio al dettaglio ambulante di chincaglieria e bigiotteria","rootCode":"G"}],"cciaa":"MI","founded":"2011-10-17","inGroup":false,"legalClass":"Impresa Individuale","legalForms":[{"level":1,"name":"Impresa Individuale"},{"level":2,"name":"Impresa Individuale"}],"legalName":"CHOWDHURY LIPTON","rea":"1968733","registeredAddress":{"fullAddress":"Via Nicola Palmieri, 21, 20141, Milano (MI)","lat":45.434935,"latlonPrecision":90,"lon":9.178266,"macroregion":"Nord-ovest","municipality":"Milano","postcode":"20141","province":"Milano","provinceCode":"MI","region":"Lombardia","state":"Italia","streetName":"Nicola Palmieri","streetNumber":"21","toponym":"Via"},"startup":false,"taxId":"CHWLTN86H26Z249E","vat":"07584160969"},"country":"it","economics":{"capitalStock":{"value":100},"employees":[{"date":"2016-12-01","latest":true,"value":1,"year":2016},{"date":"2016-09-01","latest":false,"value":1,"year":2016},{"date":"2016-06-01","latest":false,"value":1,"year":2016},{"date":"2016-03-01","latest":false,"value":1,"year":2016},{"date":"2015-12-01","latest":false,"value":1,"year":2015},{"date":"2015-09-01","latest":false,"value":1,"year":2015},{"date":"2015-06-01","latest":false,"value":1,"year":2015},{"date":"2015-03-01","latest":false,"value":1,"year":2015},{"date":"2014-12-01","latest":false,"value":1,"year":2014},{"date":"2014-09-01","latest":false,"value":1,"year":2014},{"date":"2014-06-01","latest":false,"value":1,"year":2014},{"date":"2014-03-01","latest":false,"value":1,"year":2014}],"estimatedRevenue":{}},"fullAddress":"Via Nicola Palmieri, 21, 20141, Milano (MI)","id":"f7ade6154178","locations":{"anyAddress":{"macroregions":["Nord-ovest"],"municipalities":["Milano"],"postcodes":["20141"],"provinces":["Milano"],"regions":["Lombardia"]},"count":0},"name":"CHOWDHURY LIPTON"},{"base":{"active":true,"founded":"2016-02-02","inGroup":false,"legalForms":[{"level":2,"name":"Private Limited Company"}],"legalName":"LIPTON LTD","rea":"09983519","registeredAddress":{"fullAddress":"SAGACITY 20 HIGH STREET LONDON ENGLAND E15 2PP","macroregion":"London","municipality":"Newham","postcode":"E15 2PP","province":"Hackney and Newham","region":"Inner London - East","state":"United Kingdom","streetName":"SAGACITY 20 HIGH STREET"},"startup":false},"country":"uk","economics":{"balanceSheets":[{"date":"2017-02-28","latest":true,"year":2017}]},"fullAddress":"SAGACITY 20 HIGH STREET LONDON ENGLAND E15 2PP","id":"1282b77e7b02","locations":{"anyAddress":{"macroregions":["London"],"municipalities":["Newham"],"postcodes":["E15 2PP"],"provinces":["Hackney and Newham"],"regions":["Inner London - East"]},"count":0},"name":"LIPTON LTD"},{"base":{"active":true,"founded":"2004-04-06","inGroup":false,"legalForms":[{"level":2,"name":"Private Limited Company"}],"legalName":"LESLIE LIPTON LIMITED","rea":"05096700","registeredAddress":{"fullAddress":"C/O BARNES ROFFE LLP 3 BROOK BUSINESS CENTRE COWLEY MILL ROAD UXBRIDGE MIDDLESEX UB8 2FX","macroregion":"London","municipality":"Hillingdon","postcode":"UB8 2FX","province":"Harrow and Hillingdon","region":"Outer London - West and North West","state":"United Kingdom","streetName":"C/O BARNES ROFFE LLP 3 BROOK BUSINESS CENTRE"},"startup":false},"country":"uk","fullAddress":"C/O BARNES ROFFE LLP 3 BROOK BUSINESS CENTRE COWLEY MILL ROAD UXBRIDGE MIDDLESEX UB8 2FX","id":"ee6180acf504","locations":{"anyAddress":{"macroregions":["East of England","London","South West (England)"],"municipalities":["Hillingdon","Poole","Three Rivers"],"postcodes":["BH136LR","HA61EQ","UB8 2FX","WD3 7DJ"],"provinces":["Bournemouth and Poole","Harrow and Hillingdon","Hertfordshire"],"regions":["Bedfordshire and Hertfordshire","Dorset and Somerset","Outer London - West and North West"]},"count":3,"items":[{"address":{"fullAddress":"AURORA 6A LAKESIDE ROAD BRANSOME PARK POOLE DORSET ENGLAND BH136LR","macroregion":"South West (England)","municipality":"Poole","postcode":"BH136LR","province":"Bournemouth and Poole","region":"Dorset and Somerset","state":"United Kingdom","streetName":"AURORA 6A LAKESIDE ROAD BRANSOME PARK"},"id":"11db1edee01a"},{"address":{"fullAddress":"19 ROY ROAD NORTHWOOD MIDDLESEX ENGLAND HA61EQ","macroregion":"London","municipality":"Hillingdon","postcode":"HA61EQ","province":"Harrow and Hillingdon","region":"Outer London - West and North West","state":"United Kingdom","streetName":"19 ROY ROAD"},"id":"9542ccf90796"},{"address":{"fullAddress":"97B UXBRIDGE ROAD RICKMANSWORTH HERTFORDSHIRE WD3 7DJ","macroregion":"East of England","municipality":"Three Rivers","postcode":"WD3 7DJ","province":"Hertfordshire","region":"Bedfordshire and Hertfordshire","state":"United Kingdom","streetName":"97B UXBRIDGE ROAD"},"id":"c532112a8a80"}]},"name":"LESLIE LIPTON LIMITED"},{"base":{"active":true,"founded":"2010-04-29","inGroup":false,"legalForms":[{"level":2,"name":"PRI/LBG/NSC (Private, Limited by guarantee, no share capital, use of 'Limited' exemption)"}],"legalName":"SIR THOMAS LIPTON FOUNDATION","rea":"SC377753","registeredAddress":{"fullAddress":"PO BOX 26332 ROWALLAN LANE GLASGOW G76 6AZ","macroregion":"Scotland","municipality":"East Renfrewshire","postcode":"G76 6AZ","province":"Inverclyde, East Renfrewshire and Renfrewshire","region":"South Western Scotland","state":"United Kingdom","streetName":"PO BOX 26332 ROWALLAN LANE"},"startup":false},"country":"uk","fullAddress":"PO BOX 26332 ROWALLAN LANE GLASGOW G76 6AZ","id":"c9ab46b6924c","locations":{"anyAddress":{"macroregions":["Scotland"],"municipalities":["East Renfrewshire"],"postcodes":["G76 6AZ"],"provinces":["Inverclyde, East Renfrewshire and Renfrewshire"],"regions":["South Western Scotland"]},"count":1,"items":[{"address":{"fullAddress":"SIR THOMAS LIPTON FOUNDATION ROWALLAN LANE PO BOX 26332 GLASGOW SCOTLAND G76 6AZ","macroregion":"Scotland","municipality":"East Renfrewshire","postcode":"G76 6AZ","province":"Inverclyde, East Renfrewshire and Renfrewshire","region":"South Western Scotland","state":"United Kingdom","streetName":"SIR THOMAS LIPTON FOUNDATION ROWALLAN LANE PO BOX 26332"},"id":"283afa2de5a9"}]},"name":"SIR THOMAS LIPTON FOUNDATION"},{"base":{"active":true,"founded":"2013-01-09","inGroup":false,"legalForms":[{"level":2,"name":"Limited Liability Partnership"}],"legalName":"LIPTON ROGERS DEVELOPMENTS LLP","rea":"OC381492","registeredAddress":{"fullAddress":"35 NEW BRIDGE STREET LONDON ENGLAND EC4V 6BW","macroregion":"London","municipality":"City of London","postcode":"EC4V 6BW","province":"Camden and City of London","region":"Inner London - West","state":"United Kingdom","streetName":"35 NEW BRIDGE STREET"},"startup":false},"country":"uk","fullAddress":"35 NEW BRIDGE STREET LONDON ENGLAND EC4V 6BW","id":"dec33d1c53f7","locations":{"anyAddress":{"macroregions":["London"],"municipalities":["Camden","City of London","Lambeth"],"postcodes":["EC4V 6BW","NW8 6HH","SW2 4NX"],"provinces":["Camden and City of London","Lambeth"],"regions":["Inner London - East","Inner London - West"]},"count":2,"items":[{"address":{"fullAddress":"40 QUEENS GROVE LONDON UNITED KINGDOM NW8 6HH","macroregion":"London","municipality":"Camden","postcode":"NW8 6HH","province":"Camden and City of London","region":"Inner London - West","state":"United Kingdom","streetName":"40 QUEENS GROVE"},"id":"3ed18b5d89c9"},{"address":{"fullAddress":"23, KILLIESER AVENUE LONDON ENGLAND SW2 4NX","macroregion":"London","municipality":"Lambeth","postcode":"SW2 4NX","province":"Lambeth","region":"Inner London - East","state":"United Kingdom","streetName":"23, KILLIESER AVENUE"},"id":"4a858bff5ac5"}]},"name":"LIPTON ROGERS DEVELOPMENTS LLP"},{"base":{"active":true,"founded":"2016-09-02","inGroup":false,"legalForms":[{"level":2,"name":"Private Limited Company"}],"legalName":"LIPTON ASSOCIATES LTD.","rea":"10356025","registeredAddress":{"fullAddress":"18 COTMAN GARDENS EDGWARE LONDON ENGLAND HA8 5TL","macroregion":"London","municipality":"Harrow","postcode":"HA8 5TL","province":"Harrow and Hillingdon","region":"Outer London - West and North West","state":"United Kingdom","streetName":"18 COTMAN GARDENS"},"startup":false},"country":"uk","fullAddress":"18 COTMAN GARDENS EDGWARE LONDON ENGLAND HA8 5TL","id":"f1dd56886f20","locations":{"anyAddress":{"macroregions":["London"],"municipalities":["Harrow"],"postcodes":["HA8 5TL"],"provinces":["Harrow and Hillingdon"],"regions":["Outer London - West and North West"]},"count":0},"name":"LIPTON ASSOCIATES LTD."},{"base":{"active":true,"founded":"2017-04-05","inGroup":false,"legalForms":[{"level":2,"name":"Private Limited Company"}],"legalName":"LIPTON DEVELOPMENT LIMITED","rea":"10711315","registeredAddress":{"fullAddress":"182 SHAFTESBURY AVENUE SWINDON ENGLAND SN3 2AG","macroregion":"South West (England)","municipality":"Swindon","postcode":"SN3 2AG","province":"Swindon","region":"Gloucestershire, Wiltshire and Bath/Bristol area","state":"United Kingdom","streetName":"182 SHAFTESBURY AVENUE"},"startup":false},"country":"uk","fullAddress":"182 SHAFTESBURY AVENUE SWINDON ENGLAND SN3 2AG","id":"0ade63ffe1fe","locations":{"anyAddress":{"macroregions":["South West (England)"],"municipalities":["Swindon"],"postcodes":["SN3 2AG"],"provinces":["Swindon"],"regions":["Gloucestershire, Wiltshire and Bath/Bristol area"]},"count":0},"name":"LIPTON DEVELOPMENT LIMITED"},{"base":{"active":true,"founded":"1988-08-18","inGroup":false,"legalForms":[{"level":2,"name":"Private Limited Company"}],"legalName":"LIPTON CONSULTING LIMITED","rea":"02287902","registeredAddress":{"fullAddress":"72A SUTHERLAND AVENUE BIGGIN HILL WESTERHAM KENT TN16 3HG","macroregion":"London","municipality":"Bromley","postcode":"TN16 3HG","province":"Bromley","region":"Outer London - South","state":"United Kingdom","streetName":"72A SUTHERLAND AVENUE BIGGIN HILL"},"startup":false},"country":"uk","economics":{"balanceSheets":[{"assets":519,"capitalStock":100,"date":"2016-03-31","latest":true,"year":2016},{"assets":687,"capitalStock":100,"date":"2015-03-31","latest":false,"year":2015},{"assets":687,"capitalStock":100,"date":"2015-03-31","latest":false,"year":2015},{"assets":835,"capitalStock":100,"date":"2014-03-31","latest":false,"year":2014},{"assets":646,"capitalStock":100,"date":"2014-03-31","latest":false,"year":2014},{"assets":835,"capitalStock":100,"date":"2013-03-31","latest":false,"year":2013}],"capitalStock":{"value":100}},"fullAddress":"72A SUTHERLAND AVENUE BIGGIN HILL WESTERHAM KENT TN16 3HG","id":"f13263820662","locations":{"anyAddress":{"macroregions":["London"],"municipalities":["Bromley"],"postcodes":["TN16 3HG"],"provinces":["Bromley"],"regions":["Outer London - South"]},"count":0},"name":"LIPTON CONSULTING LIMITED"},{"base":{"active":true,"founded":"1996-05-31","inGroup":false,"legalForms":[{"level":2,"name":"Private Limited Company"}],"legalName":"C. LIPTON LTD.","rea":"SC165978","registeredAddress":{"fullAddress":"5 CROSSHILL ROAD BISHOPBRIGGS GLASGOW SCOTLAND G64 2PZ","macroregion":"Scotland","municipality":"East Dunbartonshire","postcode":"G64 2PZ","province":"East Dunbartonshire, West Dunbartonshire and Helensburgh \u0026 Lomond","region":"South Western Scotland","state":"United Kingdom","streetName":"5 CROSSHILL ROAD BISHOPBRIGGS"},"startup":false},"country":"uk","economics":{"balanceSheets":[{"assets":53675,"capitalStock":2,"date":"2016-05-31","latest":true,"year":2016},{"assets":66972,"capitalStock":2,"date":"2015-05-31","latest":false,"year":2015},{"assets":50763,"capitalStock":2,"date":"2014-05-31","latest":false,"year":2014},{"assets":50093,"capitalStock":2,"date":"2013-05-31","latest":false,"year":2013}],"capitalStock":{"value":2}},"fullAddress":"5 CROSSHILL ROAD BISHOPBRIGGS GLASGOW SCOTLAND G64 2PZ","id":"0d6dd64874a3","locations":{"anyAddress":{"macroregions":["Scotland"],"municipalities":["East Dunbartonshire","East Renfrewshire"],"postcodes":["G46 6JN","G64 2PZ"],"provinces":["East Dunbartonshire, West Dunbartonshire and Helensburgh \u0026 Lomond","Inverclyde, East Renfrewshire and Renfrewshire"],"regions":["South Western Scotland"]},"count":2,"items":[{"address":{"fullAddress":"18 ST CATHERINES ROAD GIFFNOCK GLASGOW G46 6JN","macroregion":"Scotland","municipality":"East Renfrewshire","postcode":"G46 6JN","province":"Inverclyde, East Renfrewshire and Renfrewshire","region":"South Western Scotland","state":"United Kingdom","streetName":"18 ST CATHERINES ROAD GIFFNOCK"},"id":"925defff52e3"},{"address":{"fullAddress":"18 ST. CATHERINES ROAD GIFFNOCK GLASGOW G46 6JN","macroregion":"Scotland","municipality":"East Renfrewshire","postcode":"G46 6JN","province":"Inverclyde, East Renfrewshire and Renfrewshire","region":"South Western Scotland","state":"United Kingdom","streetName":"18 ST. CATHERINES ROAD GIFFNOCK"},"id":"bdfa070bdc35"}]},"name":"C. LIPTON LTD."},{"base":{"active":true,"founded":"2009-02-23","inGroup":false,"legalForms":[{"level":2,"name":"Private Limited Company"}],"legalName":"LIPTON PROPERTY LTD","rea":"06827713","registeredAddress":{"fullAddress":"ROOM 204 BON MARCHE CENTRE 241-251 FERNDALE ROAD LONDON SW9 8NJ","postcode":"SW9 8NJ","streetName":"ROOM 204 BON MARCHE CENTRE 241-251 FERNDALE ROAD"},"startup":false},"country":"uk","economics":{"balanceSheets":[{"capitalStock":100,"date":"2016-03-31","latest":true,"year":2016},{"capitalStock":100,"date":"2015-03-31","latest":false,"year":2015},{"capitalStock":100,"date":"2015-03-31","latest":false,"year":2015},{"capitalStock":100,"date":"2014-03-31","latest":false,"year":2014}],"capitalStock":{"value":100}},"fullAddress":"ROOM 204 BON MARCHE CENTRE 241-251 FERNDALE ROAD LONDON SW9 8NJ","id":"dd0757510fc2","locations":{"anyAddress":{"postcodes":["SW9 8NJ"]},"count":0},"name":"LIPTON PROPERTY LTD"},{"base":{"active":true,"founded":"2002-09-05","inGroup":false,"legalForms":[{"level":2,"name":"Private Limited Company"}],"legalName":"LIPTON PLANT ARCHITECTS LIMITED","rea":"04527231","registeredAddress":{"fullAddress":"SEATEM HOUSE 39 MORELAND STREET LONDON EC1V 8BB","macroregion":"London","municipality":"Islington","postcode":"EC1V 8BB","province":"Haringey and Islington","region":"Inner London - East","state":"United Kingdom","streetName":"SEATEM HOUSE 39 MORELAND STREET"},"startup":false},"country":"uk","economics":{"balanceSheets":[{"assets":361149,"capitalStock":20,"date":"2016-09-30","latest":true,"year":2016},{"assets":248948,"capitalStock":20,"date":"2015-09-30","latest":false,"year":2015},{"assets":248948,"capitalStock":20,"date":"2015-09-30","latest":false,"year":2015},{"assets":256301,"capitalStock":20,"date":"2014-09-30","latest":false,"year":2014},{"assets":256301,"capitalStock":20,"date":"2014-09-30","latest":false,"year":2014},{"assets":184218,"capitalStock":20,"date":"2013-09-30","latest":false,"year":2013}],"capitalStock":{"value":20}},"fullAddress":"SEATEM HOUSE 39 MORELAND STREET LONDON EC1V 8BB","id":"f6cb4a5d491a","locations":{"anyAddress":{"macroregions":["London"],"municipalities":["Islington"],"postcodes":["EC1V 8BB"],"provinces":["Haringey and Islington"],"regions":["Inner London - East"]},"count":0},"name":"LIPTON PLANT ARCHITECTS LIMITED"},{"base":{"active":true,"founded":"1997-05-02","inGroup":false,"legalForms":[{"level":2,"name":"PRI/LTD BY GUAR/NSC (Private, limited by guarantee, no share capital)"}],"legalName":"LIPTON MEWS RESIDENTS ASSOCIATION LIMITED","rea":"03364959","registeredAddress":{"fullAddress":"85 LANCASTER ROAD ENFIELD ENGLAND EN2 0DW","macroregion":"London","municipality":"Enfield","postcode":"EN2 0DW","province":"Enfield","region":"Outer London - East and North East","state":"United Kingdom","streetName":"85 LANCASTER ROAD"},"startup":false},"country":"uk","fullAddress":"85 LANCASTER ROAD ENFIELD ENGLAND EN2 0DW","id":"ade2939ff655","locations":{"anyAddress":{"macroregions":["London"],"municipalities":["Enfield"],"postcodes":["EN2 0DW","N13 5HW","N14 6BZ"],"provinces":["Enfield"],"regions":["Outer London - East and North East"]},"count":2,"items":[{"address":{"fullAddress":"9 CALLARD AVENUE LONDON MIDDLESEX N13 5HW","macroregion":"London","municipality":"Enfield","postcode":"N13 5HW","province":"Enfield","region":"Outer London - East and North East","state":"United Kingdom","streetName":"9 CALLARD AVENUE"},"id":"6562fe3e22ba"},{"address":{"fullAddress":"326 LEIGH HUNT DRIVE LONDON N14 6BZ","macroregion":"London","municipality":"Enfield","postcode":"N14 6BZ","province":"Enfield","region":"Outer London - East and North East","state":"United Kingdom","streetName":"326 LEIGH HUNT DRIVE"},"id":"f69278b87d51"}]},"name":"LIPTON MEWS RESIDENTS ASSOCIATION LIMITED"},{"base":{"active":true,"founded":"1988-08-31","inGroup":false,"legalForms":[{"level":2,"name":"Private Limited Company"}],"legalName":"LIPTON RETAIL CONSULTANCY COMPANY LIMITED","rea":"02291357","registeredAddress":{"fullAddress":"BON MARCHE CENTRE 241-251 FERNDALE ROAD LONDON SW9 8BJ","macroregion":"London","municipality":"Lambeth","postcode":"SW9 8BJ","province":"Lambeth","region":"Inner London - East","state":"United Kingdom","streetName":"BON MARCHE CENTRE 241-251 FERNDALE ROAD"},"startup":false},"country":"uk","economics":{"balanceSheets":[{"assets":707429,"capitalStock":100,"date":"2016-03-31","latest":true,"year":2016},{"assets":372457,"capitalStock":100,"date":"2015-03-31","latest":false,"year":2015},{"assets":372457,"capitalStock":100,"date":"2015-03-31","latest":false,"year":2015},{"assets":298415,"capitalStock":100,"date":"2014-03-31","latest":false,"year":2014},{"assets":298415,"date":"2014-03-31","latest":false,"year":2014},{"assets":298213,"date":"2013-03-31","latest":false,"year":2013}],"capitalStock":{"value":100}},"fullAddress":"BON MARCHE CENTRE 241-251 FERNDALE ROAD LONDON SW9 8BJ","id":"21bca91b47fc","locations":{"anyAddress":{"macroregions":["London"],"municipalities":["Lambeth"],"postcodes":["SW9 8BJ"],"provinces":["Lambeth"],"regions":["Inner London - East"]},"count":0},"name":"LIPTON RETAIL CONSULTANCY COMPANY LIMITED"},{"base":{"active":true,"founded":"2015-06-04","inGroup":false,"legalForms":[{"level":2,"name":"Limited Liability Partnership"}],"legalName":"LIPTON ROGERS HP DEVELOPMENTS LLP","rea":"OC400193","registeredAddress":{"fullAddress":"35 NEW BRIDGE STREET LONDON ENGLAND EC4V 6BW","macroregion":"London","municipality":"City of London","postcode":"EC4V 6BW","province":"Camden and City of London","region":"Inner London - West","state":"United Kingdom","streetName":"35 NEW BRIDGE STREET"},"startup":false},"country":"uk","fullAddress":"35 NEW BRIDGE STREET LONDON ENGLAND EC4V 6BW","id":"725b96d88b31","locations":{"anyAddress":{"macroregions":["London"],"municipalities":["City of London","Westminster"],"postcodes":["EC4V 6BW","W1G 0DT"],"provinces":["Camden and City of London","Westminster"],"regions":["Inner London - West"]},"count":1,"items":[{"address":{"fullAddress":"33, CAVENDISH SQUARE LONDON ENGLAND W1G 0DT","macroregion":"London","municipality":"Westminster","postcode":"W1G 0DT","province":"Westminster","region":"Inner London - West","state":"United Kingdom","streetName":"33, CAVENDISH SQUARE"},"id":"c7bd5c1774af"}]},"name":"LIPTON ROGERS HP DEVELOPMENTS LLP"},{"base":{"active":true,"founded":"1992-04-22","inGroup":false,"legalForms":[{"level":2,"name":"PRI/LTD BY GUAR/NSC (Private, limited by guarantee, no share capital)"}],"legalName":"LIPTON COURT MANAGEMENT COMPANY LIMITED","rea":"02708659","registeredAddress":{"fullAddress":"NETWORK HOUSE 110/112 LANCASTER ROAD NEW BARNET HERTS ENGLAND EN4 8AL","macroregion":"London","municipality":"Barnet","postcode":"EN4 8AL","province":"Barnet","region":"Outer London - West and North West","state":"United Kingdom","streetName":"NETWORK HOUSE 110/112 LANCASTER ROAD"},"startup":false},"country":"uk","economics":{"balanceSheets":[{"assets":34645,"date":"2016-12-31","latest":true,"year":2016},{"assets":33861,"date":"2015-12-31","latest":false,"year":2015},{"assets":33861,"date":"2015-12-31","latest":false,"year":2015},{"assets":33861,"date":"2015-12-31","latest":false,"year":2015},{"assets":31234,"date":"2014-12-31","latest":false,"year":2014},{"assets":31234,"date":"2014-12-31","latest":false,"year":2014},{"assets":31234,"date":"2014-12-31","latest":false,"year":2014},{"assets":28722,"date":"2013-12-31","latest":false,"year":2013}]},"fullAddress":"NETWORK HOUSE 110/112 LANCASTER ROAD NEW BARNET HERTS ENGLAND EN4 8AL","id":"8ad691b957a3","locations":{"anyAddress":{"macroregions":["East of England","London","North West (England)"],"municipalities":["Barnet","East Hertfordshire","Enfield","Manchester"],"postcodes":["CM23 5DQ","EN4 8AL","M14 5HG","N14 5HG"],"provinces":["Barnet","Enfield","Hertfordshire","Manchester"],"regions":["Bedfordshire and Hertfordshire","Greater Manchester","Outer London - East and North East","Outer London - West and North West"]},"count":4,"items":[{"address":{"fullAddress":"FLAT 5 LIPTON COURT CHASE SIDE LONDON N14 5HG","macroregion":"London","municipality":"Enfield","postcode":"N14 5HG","province":"Enfield","region":"Outer London - East and North East","state":"United Kingdom","streetName":"FLAT 5 LIPTON COURT CHASE SIDE"},"id":"44b194c19ffa"},{"address":{"fullAddress":"14 LIPTON COURT 196 CHASE SIDE SOUTH GATE LONDON UK N14 5HG","macroregion":"London","municipality":"Enfield","postcode":"N14 5HG","province":"Enfield","region":"Outer London - East and North East","state":"United Kingdom","streetName":"14 LIPTON COURT 196 CHASE SIDE"},"id":"9d31f6be89e1"},{"address":{"fullAddress":"15 LIPTON COURT 196 CHASE SIDE SOUTHGATE LONDON M14 5HG","macroregion":"North West (England)","municipality":"Manchester","postcode":"M14 5HG","province":"Manchester","region":"Greater Manchester","state":"United Kingdom","streetName":"15 LIPTON COURT 196 CHASE SIDE"},"id":"d171e8a6bc90"},{"address":{"fullAddress":"140 HEATH ROW BISHOPS STORTFORD HERTFORDSHIRE CM23 5DQ","macroregion":"East of England","municipality":"East Hertfordshire","postcode":"CM23 5DQ","province":"Hertfordshire","region":"Bedfordshire and Hertfordshire","state":"United Kingdom","streetName":"140 HEATH ROW"},"id":"eb91127b48fa"}]},"name":"LIPTON COURT MANAGEMENT COMPANY LIMITED"},{"base":{"active":true,"founded":"2015-05-13","inGroup":false,"legalForms":[{"level":2,"name":"Private Limited Company"}],"legalName":"FIRST BASE LIPTON ROGERS LIMITED","rea":"09589494","registeredAddress":{"fullAddress":"40, QUEEN ANNE STREET LONDON ENGLAND W1G 9EL","macroregion":"London","municipality":"Westminster","postcode":"W1G 9EL","province":"Westminster","region":"Inner London - West","state":"United Kingdom","streetName":"40, QUEEN ANNE STREET"},"startup":false},"country":"uk","economics":{"balanceSheets":[{"capitalStock":100,"date":"2016-03-31","latest":true,"year":2016}],"capitalStock":{"value":100}},"fullAddress":"40, QUEEN ANNE STREET LONDON ENGLAND W1G 9EL","id":"e4b4538012db","locations":{"anyAddress":{"macroregions":["London"],"municipalities":["Westminster"],"postcodes":["W1G 0DT","W1G 9EL"],"provinces":["Westminster"],"regions":["Inner London - West"]},"count":2,"items":[{"address":{"fullAddress":"6TH FLOOR EAST WING 33, CAVENDISH SQUARE LONDON ENGLAND W1G 0DT","macroregion":"London","municipality":"Westminster","postcode":"W1G 0DT","province":"Westminster","region":"Inner London - West","state":"United Kingdom","streetName":"6TH FLOOR EAST WING 33, CAVENDISH SQUARE"},"id":"02fbfc9deac2"},{"address":{"fullAddress":"33, CAVENDISH SQUARE LONDON ENGLAND W1G 0DT","macroregion":"London","municipality":"Westminster","postcode":"W1G 0DT","province":"Westminster","region":"Inner London - West","state":"United Kingdom","streetName":"33, CAVENDISH SQUARE"},"id":"fe8cae6fd818"}]},"name":"FIRST BASE LIPTON ROGERS LIMITED"},{"base":{"active":true,"founded":"1997-05-06","inGroup":false,"legalForms":[{"level":2,"name":"PRI/LTD BY GUAR/NSC (Private, limited by guarantee, no share capital)"}],"legalName":"LIPTON MEWS FLAT MANAGEMENT COMPANY LIMITED","rea":"03365505","registeredAddress":{"fullAddress":"85 LANCASTER ROAD ENFIELD ENGLAND EN2 0DW","macroregion":"London","municipality":"Enfield","postcode":"EN2 0DW","province":"Enfield","region":"Outer London - East and North East","state":"United Kingdom","streetName":"85 LANCASTER ROAD"},"startup":false},"country":"uk","fullAddress":"85 LANCASTER ROAD ENFIELD ENGLAND EN2 0DW","id":"a5617a10a825","locations":{"anyAddress":{"macroregions":["London"],"municipalities":["Enfield"],"postcodes":["EN2 0DW","N14 6BZ","N14 6DS"],"provinces":["Enfield"],"regions":["Outer London - East and North East"]},"count":3,"items":[{"address":{"fullAddress":"304 LEIGH HUNT DRIVE LONDON N14 6BZ","macroregion":"London","municipality":"Enfield","postcode":"N14 6BZ","province":"Enfield","region":"Outer London - East and North East","state":"United Kingdom","streetName":"304 LEIGH HUNT DRIVE"},"id":"49086602f497"},{"address":{"fullAddress":"223 LEIGH HUNT DRIVE SOUTHGATE LONDON N14 6DS","macroregion":"London","municipality":"Enfield","postcode":"N14 6DS","province":"Enfield","region":"Outer London - East and North East","state":"United Kingdom","streetName":"223 LEIGH HUNT DRIVE SOUTHGATE"},"id":"dde99bc3fc5c"},{"address":{"fullAddress":"326 LEIGH HUNT DRIVE LONDON N14 6BZ","macroregion":"London","municipality":"Enfield","postcode":"N14 6BZ","province":"Enfield","region":"Outer London - East and North East","state":"United Kingdom","streetName":"326 LEIGH HUNT DRIVE"},"id":"fd159bbd61ba"}]},"name":"LIPTON MEWS FLAT MANAGEMENT COMPANY LIMITED"}]
+[{
+	"base": {
+		"active": true,
+		"founded": "1997-11-19",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "Private Limited Company"
+		}],
+		"legalName": "P LIPTON AND SONS LIMITED",
+		"rea": "NI033274",
+		"registeredAddress": {
+			"fullAddress": "MARLBOROUGH HOUSE 30 VICTORIA STREET BELFAST BT1 3GS",
+			"municipality": "BELFAST",
+			"postcode": "BT1 3GS",
+			"streetName": "MARLBOROUGH HOUSE 30 VICTORIA STREET"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"economics": {
+		"balanceSheets": [{
+			"assets": 200393,
+			"capitalStock": 105000,
+			"date": "2016-03-31",
+			"latest": true,
+			"year": 2016
+		},
+		{
+			"assets": 194821,
+			"capitalStock": 105000,
+			"date": "2015-03-31",
+			"latest": false,
+			"year": 2015
+		}],
+		"capitalStock": {
+			"value": 105000
+		}
+	},
+	"entities": {
+		"de": [{
+			"name": "DBA",
+			"score": 0.3333333333333333,
+			"uri": "http://de.wikipedia.org/wiki/Doing_business_as"
+		},
+		{
+			"name": "Gemeinschaft",
+			"score": 0.3333333333333333,
+			"uri": "http://de.wikipedia.org/wiki/Gemeinschaft"
+		},
+		{
+			"name": "Highlands and Islands",
+			"score": 0.3333333333333333,
+			"uri": "http://de.wikipedia.org/wiki/Highlands_and_Islands"
+		},
+		{
+			"name": "Industrie",
+			"score": 0.3333333333333333,
+			"uri": "http://de.wikipedia.org/wiki/Industrie"
+		},
+		{
+			"name": "Lipton",
+			"score": 0.3333333333333333,
+			"uri": "http://de.wikipedia.org/wiki/Lipton_%28Marke%29"
+		},
+		{
+			"name": "Marke",
+			"score": 0.3333333333333333,
+			"uri": "http://de.wikipedia.org/wiki/Marke_%28Marketing%29"
+		},
+		{
+			"name": "McDonald’s",
+			"score": 0.3333333333333333,
+			"uri": "http://de.wikipedia.org/wiki/McDonald%E2%80%99s"
+		},
+		{
+			"name": "Schottland",
+			"score": 0.3333333333333333,
+			"uri": "http://de.wikipedia.org/wiki/Schottland"
+		},
+		{
+			"name": "South Ayrshire",
+			"score": 0.3333333333333333,
+			"uri": "http://de.wikipedia.org/wiki/South_Ayrshire"
+		}],
+		"en": [{
+			"name": "Brand",
+			"score": 0.3333333333333333,
+			"uri": "http://en.wikipedia.org/wiki/Brand"
+		},
+		{
+			"name": "Community",
+			"score": 0.3333333333333333,
+			"uri": "http://en.wikipedia.org/wiki/Community"
+		},
+		{
+			"name": "Highlands and Islands",
+			"score": 0.3333333333333333,
+			"uri": "http://en.wikipedia.org/wiki/Highlands_and_Islands"
+		},
+		{
+			"name": "Industry",
+			"score": 0.3333333333333333,
+			"uri": "http://en.wikipedia.org/wiki/Industry"
+		},
+		{
+			"name": "Lipton",
+			"score": 0.3333333333333333,
+			"uri": "http://en.wikipedia.org/wiki/Lipton"
+		},
+		{
+			"name": "McDonald's",
+			"score": 0.3333333333333333,
+			"uri": "http://en.wikipedia.org/wiki/McDonald%27s"
+		},
+		{
+			"name": "Scotland",
+			"score": 0.3333333333333333,
+			"uri": "http://en.wikipedia.org/wiki/Scotland"
+		},
+		{
+			"name": "South Ayrshire",
+			"score": 0.3333333333333333,
+			"uri": "http://en.wikipedia.org/wiki/South_Ayrshire"
+		},
+		{
+			"name": "Trade name",
+			"score": 0.3333333333333333,
+			"uri": "http://en.wikipedia.org/wiki/Trade_name"
+		},
+		{
+			"name": "Word-of-mouth marketing",
+			"score": 0.3333333333333333,
+			"uri": "http://en.wikipedia.org/wiki/Word-of-mouth_marketing"
+		}],
+		"fr": [{
+			"name": "Écosse",
+			"score": 0.3333333333333333,
+			"uri": "http://fr.wikipedia.org/wiki/%C3%89cosse"
+		},
+		{
+			"name": "Communauté",
+			"score": 0.3333333333333333,
+			"uri": "http://fr.wikipedia.org/wiki/Communaut%C3%A9"
+		},
+		{
+			"name": "Industrie",
+			"score": 0.3333333333333333,
+			"uri": "http://fr.wikipedia.org/wiki/Industrie"
+		},
+		{
+			"name": "Lipton",
+			"score": 0.3333333333333333,
+			"uri": "http://fr.wikipedia.org/wiki/Lipton"
+		},
+		{
+			"name": "Marque",
+			"score": 0.3333333333333333,
+			"uri": "http://fr.wikipedia.org/wiki/Marque_%28marketing%29"
+		},
+		{
+			"name": "McDonald's",
+			"score": 0.3333333333333333,
+			"uri": "http://fr.wikipedia.org/wiki/McDonald%27s"
+		},
+		{
+			"name": "Nom commercial",
+			"score": 0.3333333333333333,
+			"uri": "http://fr.wikipedia.org/wiki/Nom_commercial"
+		},
+		{
+			"name": "South Ayrshire",
+			"score": 0.3333333333333333,
+			"uri": "http://fr.wikipedia.org/wiki/South_Ayrshire"
+		}],
+		"it": [{
+			"name": "Ayrshire Meridionale",
+			"score": 0.3333333333333333,
+			"uri": "http://it.wikipedia.org/wiki/Ayrshire_Meridionale"
+		},
+		{
+			"name": "Comunità",
+			"score": 0.3333333333333333,
+			"uri": "http://it.wikipedia.org/wiki/Comunit%C3%A0"
+		},
+		{
+			"name": "Industria",
+			"score": 0.3333333333333333,
+			"uri": "http://it.wikipedia.org/wiki/Industria"
+		},
+		{
+			"name": "Lipton",
+			"score": 0.3333333333333333,
+			"uri": "http://it.wikipedia.org/wiki/Lipton"
+		},
+		{
+			"name": "Marca",
+			"score": 0.3333333333333333,
+			"uri": "http://it.wikipedia.org/wiki/Marca_%28commercio%29"
+		},
+		{
+			"name": "McDonald's",
+			"score": 0.3333333333333333,
+			"uri": "http://it.wikipedia.org/wiki/McDonald%27s"
+		},
+		{
+			"name": "Scozia",
+			"score": 0.3333333333333333,
+			"uri": "http://it.wikipedia.org/wiki/Scozia"
+		}],
+		"pt": [{
+			"name": "Comunidade",
+			"score": 0.3333333333333333,
+			"uri": "http://pt.wikipedia.org/wiki/Comunidade"
+		},
+		{
+			"name": "Escócia",
+			"score": 0.3333333333333333,
+			"uri": "http://pt.wikipedia.org/wiki/Esc%C3%B3cia"
+		},
+		{
+			"name": "Indústria",
+			"score": 0.3333333333333333,
+			"uri": "http://pt.wikipedia.org/wiki/Ind%C3%BAstria"
+		},
+		{
+			"name": "Marca",
+			"score": 0.3333333333333333,
+			"uri": "http://pt.wikipedia.org/wiki/Marca"
+		},
+		{
+			"name": "Marketing de boca-a-boca",
+			"score": 0.3333333333333333,
+			"uri": "http://pt.wikipedia.org/wiki/Marketing_de_boca_a_boca"
+		},
+		{
+			"name": "McDonald's",
+			"score": 0.3333333333333333,
+			"uri": "http://pt.wikipedia.org/wiki/McDonald%27s"
+		},
+		{
+			"name": "Nome fantasia",
+			"score": 0.3333333333333333,
+			"uri": "http://pt.wikipedia.org/wiki/Nome_fantasia"
+		},
+		{
+			"name": "South Ayrshire",
+			"score": 0.3333333333333333,
+			"uri": "http://pt.wikipedia.org/wiki/South_Ayrshire"
+		}]
+	},
+	"fullAddress": "MARLBOROUGH HOUSE 30 VICTORIA STREET BELFAST BT1 3GS",
+	"id": "6a870ce1a5af",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["Scotland"],
+			"municipalities": ["BELFAST",
+			"Glasgow City",
+			"South Ayrshire"],
+			"postcodes": ["BT1 3GS",
+			"G41 5PL",
+			"KA1 5PD"],
+			"provinces": ["Glasgow City",
+			"South Ayrshire"],
+			"regions": ["South Western Scotland"]
+		},
+		"count": 2,
+		"items": [{
+			"address": {
+				"fullAddress": "SYKE FARM BOGEND TOLL SOUTH AYRSHIRE SCOTLAND KA1 5PD",
+				"macroregion": "Scotland",
+				"municipality": "South Ayrshire",
+				"postcode": "KA1 5PD",
+				"province": "South Ayrshire",
+				"region": "South Western Scotland",
+				"state": "United Kingdom",
+				"streetName": "SYKE FARM BOGEND TOLL"
+			},
+			"id": "185a6436607e"
+		},
+		{
+			"address": {
+				"fullAddress": "364 ALBERT DRIVE GLASGOW UNITED KINGDOM G41 5PL",
+				"macroregion": "Scotland",
+				"municipality": "Glasgow City",
+				"postcode": "G41 5PL",
+				"province": "Glasgow City",
+				"region": "South Western Scotland",
+				"state": "United Kingdom",
+				"streetName": "364 ALBERT DRIVE"
+			},
+			"id": "4976074af43d"
+		}]
+	},
+	"name": "P LIPTON AND SONS LIMITED",
+	"web": {
+		"description": "If you need a unique memorial crafting for your loved one, contact P Lipton Memorial Centre in Glasgow on 0141 429 7341 for service throughout Scotland.",
+		"keywords": ["centre",
+		"lettering",
+		"lawn",
+		"designs",
+		"marble",
+		"headstone",
+		"leaf",
+		"tribute",
+		"inscription",
+		"scotland",
+		"inscriptions",
+		"gold",
+		"repair",
+		"stone",
+		"desk"],
+		"languages": ["en"],
+		"websites": [{
+			"active": true,
+			"url": "http://pliptonmemorialcentre.co.uk"
+		}]
+	}
+},
+{
+	"base": {
+		"active": true,
+		"ateco": [{
+			"code": "47.89.04",
+			"description": "Commercio al dettaglio ambulante di chincaglieria e bigiotteria",
+			"rootCode": "G"
+		}],
+		"cciaa": "MI",
+		"founded": "2011-10-17",
+		"inGroup": false,
+		"legalClass": "Impresa Individuale",
+		"legalForms": [{
+			"level": 1,
+			"name": "Impresa Individuale"
+		},
+		{
+			"level": 2,
+			"name": "Impresa Individuale"
+		}],
+		"legalName": "CHOWDHURY LIPTON",
+		"rea": "1968733",
+		"registeredAddress": {
+			"fullAddress": "Via Nicola Palmieri, 21, 20141, Milano (MI)",
+			"lat": 45.434935,
+			"latlonPrecision": 90,
+			"lon": 9.178266,
+			"macroregion": "Nord-ovest",
+			"municipality": "Milano",
+			"postcode": "20141",
+			"province": "Milano",
+			"provinceCode": "MI",
+			"region": "Lombardia",
+			"state": "Italia",
+			"streetName": "Nicola Palmieri",
+			"streetNumber": "21",
+			"toponym": "Via"
+		},
+		"startup": false,
+		"taxId": "CHWLTN86H26Z249E",
+		"vat": "07584160969"
+	},
+	"country": "it",
+	"economics": {
+		"capitalStock": {
+			"value": 100
+		},
+		"employees": [{
+			"date": "2016-12-01",
+			"latest": true,
+			"value": 1,
+			"year": 2016
+		},
+		{
+			"date": "2016-09-01",
+			"latest": false,
+			"value": 1,
+			"year": 2016
+		},
+		{
+			"date": "2016-06-01",
+			"latest": false,
+			"value": 1,
+			"year": 2016
+		},
+		{
+			"date": "2016-03-01",
+			"latest": false,
+			"value": 1,
+			"year": 2016
+		},
+		{
+			"date": "2015-12-01",
+			"latest": false,
+			"value": 1,
+			"year": 2015
+		},
+		{
+			"date": "2015-09-01",
+			"latest": false,
+			"value": 1,
+			"year": 2015
+		},
+		{
+			"date": "2015-06-01",
+			"latest": false,
+			"value": 1,
+			"year": 2015
+		},
+		{
+			"date": "2015-03-01",
+			"latest": false,
+			"value": 1,
+			"year": 2015
+		},
+		{
+			"date": "2014-12-01",
+			"latest": false,
+			"value": 1,
+			"year": 2014
+		},
+		{
+			"date": "2014-09-01",
+			"latest": false,
+			"value": 1,
+			"year": 2014
+		},
+		{
+			"date": "2014-06-01",
+			"latest": false,
+			"value": 1,
+			"year": 2014
+		},
+		{
+			"date": "2014-03-01",
+			"latest": false,
+			"value": 1,
+			"year": 2014
+		}],
+		"estimatedRevenue": {
+			
+		}
+	},
+	"fullAddress": "Via Nicola Palmieri, 21, 20141, Milano (MI)",
+	"id": "f7ade6154178",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["Nord-ovest"],
+			"municipalities": ["Milano"],
+			"postcodes": ["20141"],
+			"provinces": ["Milano"],
+			"regions": ["Lombardia"]
+		},
+		"count": 0
+	},
+	"name": "CHOWDHURY LIPTON"
+},
+{
+	"base": {
+		"active": true,
+		"founded": "2016-02-02",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "Private Limited Company"
+		}],
+		"legalName": "LIPTON LTD",
+		"rea": "09983519",
+		"registeredAddress": {
+			"fullAddress": "SAGACITY 20 HIGH STREET LONDON ENGLAND E15 2PP",
+			"macroregion": "London",
+			"municipality": "Newham",
+			"postcode": "E15 2PP",
+			"province": "Hackney and Newham",
+			"region": "Inner London - East",
+			"state": "United Kingdom",
+			"streetName": "SAGACITY 20 HIGH STREET"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"economics": {
+		"balanceSheets": [{
+			"date": "2017-02-28",
+			"latest": true,
+			"year": 2017
+		}]
+	},
+	"fullAddress": "SAGACITY 20 HIGH STREET LONDON ENGLAND E15 2PP",
+	"id": "1282b77e7b02",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["London"],
+			"municipalities": ["Newham"],
+			"postcodes": ["E15 2PP"],
+			"provinces": ["Hackney and Newham"],
+			"regions": ["Inner London - East"]
+		},
+		"count": 0
+	},
+	"name": "LIPTON LTD"
+},
+{
+	"base": {
+		"active": true,
+		"founded": "2004-04-06",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "Private Limited Company"
+		}],
+		"legalName": "LESLIE LIPTON LIMITED",
+		"rea": "05096700",
+		"registeredAddress": {
+			"fullAddress": "C/O BARNES ROFFE LLP 3 BROOK BUSINESS CENTRE COWLEY MILL ROAD UXBRIDGE MIDDLESEX UB8 2FX",
+			"macroregion": "London",
+			"municipality": "Hillingdon",
+			"postcode": "UB8 2FX",
+			"province": "Harrow and Hillingdon",
+			"region": "Outer London - West and North West",
+			"state": "United Kingdom",
+			"streetName": "C/O BARNES ROFFE LLP 3 BROOK BUSINESS CENTRE"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"fullAddress": "C/O BARNES ROFFE LLP 3 BROOK BUSINESS CENTRE COWLEY MILL ROAD UXBRIDGE MIDDLESEX UB8 2FX",
+	"id": "ee6180acf504",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["East of England",
+			"London",
+			"South West (England)"],
+			"municipalities": ["Hillingdon",
+			"Poole",
+			"Three Rivers"],
+			"postcodes": ["BH136LR",
+			"HA61EQ",
+			"UB8 2FX",
+			"WD3 7DJ"],
+			"provinces": ["Bournemouth and Poole",
+			"Harrow and Hillingdon",
+			"Hertfordshire"],
+			"regions": ["Bedfordshire and Hertfordshire",
+			"Dorset and Somerset",
+			"Outer London - West and North West"]
+		},
+		"count": 3,
+		"items": [{
+			"address": {
+				"fullAddress": "AURORA 6A LAKESIDE ROAD BRANSOME PARK POOLE DORSET ENGLAND BH136LR",
+				"macroregion": "South West (England)",
+				"municipality": "Poole",
+				"postcode": "BH136LR",
+				"province": "Bournemouth and Poole",
+				"region": "Dorset and Somerset",
+				"state": "United Kingdom",
+				"streetName": "AURORA 6A LAKESIDE ROAD BRANSOME PARK"
+			},
+			"id": "11db1edee01a"
+		},
+		{
+			"address": {
+				"fullAddress": "19 ROY ROAD NORTHWOOD MIDDLESEX ENGLAND HA61EQ",
+				"macroregion": "London",
+				"municipality": "Hillingdon",
+				"postcode": "HA61EQ",
+				"province": "Harrow and Hillingdon",
+				"region": "Outer London - West and North West",
+				"state": "United Kingdom",
+				"streetName": "19 ROY ROAD"
+			},
+			"id": "9542ccf90796"
+		},
+		{
+			"address": {
+				"fullAddress": "97B UXBRIDGE ROAD RICKMANSWORTH HERTFORDSHIRE WD3 7DJ",
+				"macroregion": "East of England",
+				"municipality": "Three Rivers",
+				"postcode": "WD3 7DJ",
+				"province": "Hertfordshire",
+				"region": "Bedfordshire and Hertfordshire",
+				"state": "United Kingdom",
+				"streetName": "97B UXBRIDGE ROAD"
+			},
+			"id": "c532112a8a80"
+		}]
+	},
+	"name": "LESLIE LIPTON LIMITED"
+},
+{
+	"base": {
+		"active": true,
+		"founded": "2010-04-29",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "PRI/LBG/NSC (Private, Limited by guarantee, no share capital, use of 'Limited' exemption)"
+		}],
+		"legalName": "SIR THOMAS LIPTON FOUNDATION",
+		"rea": "SC377753",
+		"registeredAddress": {
+			"fullAddress": "PO BOX 26332 ROWALLAN LANE GLASGOW G76 6AZ",
+			"macroregion": "Scotland",
+			"municipality": "East Renfrewshire",
+			"postcode": "G76 6AZ",
+			"province": "Inverclyde, East Renfrewshire and Renfrewshire",
+			"region": "South Western Scotland",
+			"state": "United Kingdom",
+			"streetName": "PO BOX 26332 ROWALLAN LANE"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"fullAddress": "PO BOX 26332 ROWALLAN LANE GLASGOW G76 6AZ",
+	"id": "c9ab46b6924c",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["Scotland"],
+			"municipalities": ["East Renfrewshire"],
+			"postcodes": ["G76 6AZ"],
+			"provinces": ["Inverclyde, East Renfrewshire and Renfrewshire"],
+			"regions": ["South Western Scotland"]
+		},
+		"count": 1,
+		"items": [{
+			"address": {
+				"fullAddress": "SIR THOMAS LIPTON FOUNDATION ROWALLAN LANE PO BOX 26332 GLASGOW SCOTLAND G76 6AZ",
+				"macroregion": "Scotland",
+				"municipality": "East Renfrewshire",
+				"postcode": "G76 6AZ",
+				"province": "Inverclyde, East Renfrewshire and Renfrewshire",
+				"region": "South Western Scotland",
+				"state": "United Kingdom",
+				"streetName": "SIR THOMAS LIPTON FOUNDATION ROWALLAN LANE PO BOX 26332"
+			},
+			"id": "283afa2de5a9"
+		}]
+	},
+	"name": "SIR THOMAS LIPTON FOUNDATION"
+},
+{
+	"base": {
+		"active": true,
+		"founded": "2013-01-09",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "Limited Liability Partnership"
+		}],
+		"legalName": "LIPTON ROGERS DEVELOPMENTS LLP",
+		"rea": "OC381492",
+		"registeredAddress": {
+			"fullAddress": "35 NEW BRIDGE STREET LONDON ENGLAND EC4V 6BW",
+			"macroregion": "London",
+			"municipality": "City of London",
+			"postcode": "EC4V 6BW",
+			"province": "Camden and City of London",
+			"region": "Inner London - West",
+			"state": "United Kingdom",
+			"streetName": "35 NEW BRIDGE STREET"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"fullAddress": "35 NEW BRIDGE STREET LONDON ENGLAND EC4V 6BW",
+	"id": "dec33d1c53f7",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["London"],
+			"municipalities": ["Camden",
+			"City of London",
+			"Lambeth"],
+			"postcodes": ["EC4V 6BW",
+			"NW8 6HH",
+			"SW2 4NX"],
+			"provinces": ["Camden and City of London",
+			"Lambeth"],
+			"regions": ["Inner London - East",
+			"Inner London - West"]
+		},
+		"count": 2,
+		"items": [{
+			"address": {
+				"fullAddress": "40 QUEENS GROVE LONDON UNITED KINGDOM NW8 6HH",
+				"macroregion": "London",
+				"municipality": "Camden",
+				"postcode": "NW8 6HH",
+				"province": "Camden and City of London",
+				"region": "Inner London - West",
+				"state": "United Kingdom",
+				"streetName": "40 QUEENS GROVE"
+			},
+			"id": "3ed18b5d89c9"
+		},
+		{
+			"address": {
+				"fullAddress": "23, KILLIESER AVENUE LONDON ENGLAND SW2 4NX",
+				"macroregion": "London",
+				"municipality": "Lambeth",
+				"postcode": "SW2 4NX",
+				"province": "Lambeth",
+				"region": "Inner London - East",
+				"state": "United Kingdom",
+				"streetName": "23, KILLIESER AVENUE"
+			},
+			"id": "4a858bff5ac5"
+		}]
+	},
+	"name": "LIPTON ROGERS DEVELOPMENTS LLP"
+},
+{
+	"base": {
+		"active": true,
+		"founded": "2016-09-02",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "Private Limited Company"
+		}],
+		"legalName": "LIPTON ASSOCIATES LTD.",
+		"rea": "10356025",
+		"registeredAddress": {
+			"fullAddress": "18 COTMAN GARDENS EDGWARE LONDON ENGLAND HA8 5TL",
+			"macroregion": "London",
+			"municipality": "Harrow",
+			"postcode": "HA8 5TL",
+			"province": "Harrow and Hillingdon",
+			"region": "Outer London - West and North West",
+			"state": "United Kingdom",
+			"streetName": "18 COTMAN GARDENS"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"fullAddress": "18 COTMAN GARDENS EDGWARE LONDON ENGLAND HA8 5TL",
+	"id": "f1dd56886f20",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["London"],
+			"municipalities": ["Harrow"],
+			"postcodes": ["HA8 5TL"],
+			"provinces": ["Harrow and Hillingdon"],
+			"regions": ["Outer London - West and North West"]
+		},
+		"count": 0
+	},
+	"name": "LIPTON ASSOCIATES LTD."
+},
+{
+	"base": {
+		"active": true,
+		"founded": "2017-04-05",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "Private Limited Company"
+		}],
+		"legalName": "LIPTON DEVELOPMENT LIMITED",
+		"rea": "10711315",
+		"registeredAddress": {
+			"fullAddress": "182 SHAFTESBURY AVENUE SWINDON ENGLAND SN3 2AG",
+			"macroregion": "South West (England)",
+			"municipality": "Swindon",
+			"postcode": "SN3 2AG",
+			"province": "Swindon",
+			"region": "Gloucestershire, Wiltshire and Bath/Bristol area",
+			"state": "United Kingdom",
+			"streetName": "182 SHAFTESBURY AVENUE"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"fullAddress": "182 SHAFTESBURY AVENUE SWINDON ENGLAND SN3 2AG",
+	"id": "0ade63ffe1fe",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["South West (England)"],
+			"municipalities": ["Swindon"],
+			"postcodes": ["SN3 2AG"],
+			"provinces": ["Swindon"],
+			"regions": ["Gloucestershire, Wiltshire and Bath/Bristol area"]
+		},
+		"count": 0
+	},
+	"name": "LIPTON DEVELOPMENT LIMITED"
+},
+{
+	"base": {
+		"active": true,
+		"founded": "1988-08-18",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "Private Limited Company"
+		}],
+		"legalName": "LIPTON CONSULTING LIMITED",
+		"rea": "02287902",
+		"registeredAddress": {
+			"fullAddress": "72A SUTHERLAND AVENUE BIGGIN HILL WESTERHAM KENT TN16 3HG",
+			"macroregion": "London",
+			"municipality": "Bromley",
+			"postcode": "TN16 3HG",
+			"province": "Bromley",
+			"region": "Outer London - South",
+			"state": "United Kingdom",
+			"streetName": "72A SUTHERLAND AVENUE BIGGIN HILL"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"economics": {
+		"balanceSheets": [{
+			"assets": 519,
+			"capitalStock": 100,
+			"date": "2016-03-31",
+			"latest": true,
+			"year": 2016
+		},
+		{
+			"assets": 687,
+			"capitalStock": 100,
+			"date": "2015-03-31",
+			"latest": false,
+			"year": 2015
+		},
+		{
+			"assets": 687,
+			"capitalStock": 100,
+			"date": "2015-03-31",
+			"latest": false,
+			"year": 2015
+		},
+		{
+			"assets": 835,
+			"capitalStock": 100,
+			"date": "2014-03-31",
+			"latest": false,
+			"year": 2014
+		},
+		{
+			"assets": 646,
+			"capitalStock": 100,
+			"date": "2014-03-31",
+			"latest": false,
+			"year": 2014
+		},
+		{
+			"assets": 835,
+			"capitalStock": 100,
+			"date": "2013-03-31",
+			"latest": false,
+			"year": 2013
+		}],
+		"capitalStock": {
+			"value": 100
+		}
+	},
+	"fullAddress": "72A SUTHERLAND AVENUE BIGGIN HILL WESTERHAM KENT TN16 3HG",
+	"id": "f13263820662",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["London"],
+			"municipalities": ["Bromley"],
+			"postcodes": ["TN16 3HG"],
+			"provinces": ["Bromley"],
+			"regions": ["Outer London - South"]
+		},
+		"count": 0
+	},
+	"name": "LIPTON CONSULTING LIMITED"
+},
+{
+	"base": {
+		"active": true,
+		"founded": "1996-05-31",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "Private Limited Company"
+		}],
+		"legalName": "C. LIPTON LTD.",
+		"rea": "SC165978",
+		"registeredAddress": {
+			"fullAddress": "5 CROSSHILL ROAD BISHOPBRIGGS GLASGOW SCOTLAND G64 2PZ",
+			"macroregion": "Scotland",
+			"municipality": "East Dunbartonshire",
+			"postcode": "G64 2PZ",
+			"province": "East Dunbartonshire, West Dunbartonshire and Helensburgh \u0026 Lomond",
+			"region": "South Western Scotland",
+			"state": "United Kingdom",
+			"streetName": "5 CROSSHILL ROAD BISHOPBRIGGS"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"economics": {
+		"balanceSheets": [{
+			"assets": 53675,
+			"capitalStock": 2,
+			"date": "2016-05-31",
+			"latest": true,
+			"year": 2016
+		},
+		{
+			"assets": 66972,
+			"capitalStock": 2,
+			"date": "2015-05-31",
+			"latest": false,
+			"year": 2015
+		},
+		{
+			"assets": 50763,
+			"capitalStock": 2,
+			"date": "2014-05-31",
+			"latest": false,
+			"year": 2014
+		},
+		{
+			"assets": 50093,
+			"capitalStock": 2,
+			"date": "2013-05-31",
+			"latest": false,
+			"year": 2013
+		}],
+		"capitalStock": {
+			"value": 2
+		}
+	},
+	"fullAddress": "5 CROSSHILL ROAD BISHOPBRIGGS GLASGOW SCOTLAND G64 2PZ",
+	"id": "0d6dd64874a3",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["Scotland"],
+			"municipalities": ["East Dunbartonshire",
+			"East Renfrewshire"],
+			"postcodes": ["G46 6JN",
+			"G64 2PZ"],
+			"provinces": ["East Dunbartonshire, West Dunbartonshire and Helensburgh \u0026 Lomond",
+			"Inverclyde, East Renfrewshire and Renfrewshire"],
+			"regions": ["South Western Scotland"]
+		},
+		"count": 2,
+		"items": [{
+			"address": {
+				"fullAddress": "18 ST CATHERINES ROAD GIFFNOCK GLASGOW G46 6JN",
+				"macroregion": "Scotland",
+				"municipality": "East Renfrewshire",
+				"postcode": "G46 6JN",
+				"province": "Inverclyde, East Renfrewshire and Renfrewshire",
+				"region": "South Western Scotland",
+				"state": "United Kingdom",
+				"streetName": "18 ST CATHERINES ROAD GIFFNOCK"
+			},
+			"id": "925defff52e3"
+		},
+		{
+			"address": {
+				"fullAddress": "18 ST. CATHERINES ROAD GIFFNOCK GLASGOW G46 6JN",
+				"macroregion": "Scotland",
+				"municipality": "East Renfrewshire",
+				"postcode": "G46 6JN",
+				"province": "Inverclyde, East Renfrewshire and Renfrewshire",
+				"region": "South Western Scotland",
+				"state": "United Kingdom",
+				"streetName": "18 ST. CATHERINES ROAD GIFFNOCK"
+			},
+			"id": "bdfa070bdc35"
+		}]
+	},
+	"name": "C. LIPTON LTD."
+},
+{
+	"base": {
+		"active": true,
+		"founded": "2009-02-23",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "Private Limited Company"
+		}],
+		"legalName": "LIPTON PROPERTY LTD",
+		"rea": "06827713",
+		"registeredAddress": {
+			"fullAddress": "ROOM 204 BON MARCHE CENTRE 241-251 FERNDALE ROAD LONDON SW9 8NJ",
+			"postcode": "SW9 8NJ",
+			"streetName": "ROOM 204 BON MARCHE CENTRE 241-251 FERNDALE ROAD"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"economics": {
+		"balanceSheets": [{
+			"capitalStock": 100,
+			"date": "2016-03-31",
+			"latest": true,
+			"year": 2016
+		},
+		{
+			"capitalStock": 100,
+			"date": "2015-03-31",
+			"latest": false,
+			"year": 2015
+		},
+		{
+			"capitalStock": 100,
+			"date": "2015-03-31",
+			"latest": false,
+			"year": 2015
+		},
+		{
+			"capitalStock": 100,
+			"date": "2014-03-31",
+			"latest": false,
+			"year": 2014
+		}],
+		"capitalStock": {
+			"value": 100
+		}
+	},
+	"fullAddress": "ROOM 204 BON MARCHE CENTRE 241-251 FERNDALE ROAD LONDON SW9 8NJ",
+	"id": "dd0757510fc2",
+	"locations": {
+		"anyAddress": {
+			"postcodes": ["SW9 8NJ"]
+		},
+		"count": 0
+	},
+	"name": "LIPTON PROPERTY LTD"
+},
+{
+	"base": {
+		"active": true,
+		"founded": "2002-09-05",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "Private Limited Company"
+		}],
+		"legalName": "LIPTON PLANT ARCHITECTS LIMITED",
+		"rea": "04527231",
+		"registeredAddress": {
+			"fullAddress": "SEATEM HOUSE 39 MORELAND STREET LONDON EC1V 8BB",
+			"macroregion": "London",
+			"municipality": "Islington",
+			"postcode": "EC1V 8BB",
+			"province": "Haringey and Islington",
+			"region": "Inner London - East",
+			"state": "United Kingdom",
+			"streetName": "SEATEM HOUSE 39 MORELAND STREET"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"economics": {
+		"balanceSheets": [{
+			"assets": 361149,
+			"capitalStock": 20,
+			"date": "2016-09-30",
+			"latest": true,
+			"year": 2016
+		},
+		{
+			"assets": 248948,
+			"capitalStock": 20,
+			"date": "2015-09-30",
+			"latest": false,
+			"year": 2015
+		},
+		{
+			"assets": 248948,
+			"capitalStock": 20,
+			"date": "2015-09-30",
+			"latest": false,
+			"year": 2015
+		},
+		{
+			"assets": 256301,
+			"capitalStock": 20,
+			"date": "2014-09-30",
+			"latest": false,
+			"year": 2014
+		},
+		{
+			"assets": 256301,
+			"capitalStock": 20,
+			"date": "2014-09-30",
+			"latest": false,
+			"year": 2014
+		},
+		{
+			"assets": 184218,
+			"capitalStock": 20,
+			"date": "2013-09-30",
+			"latest": false,
+			"year": 2013
+		}],
+		"capitalStock": {
+			"value": 20
+		}
+	},
+	"fullAddress": "SEATEM HOUSE 39 MORELAND STREET LONDON EC1V 8BB",
+	"id": "f6cb4a5d491a",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["London"],
+			"municipalities": ["Islington"],
+			"postcodes": ["EC1V 8BB"],
+			"provinces": ["Haringey and Islington"],
+			"regions": ["Inner London - East"]
+		},
+		"count": 0
+	},
+	"name": "LIPTON PLANT ARCHITECTS LIMITED"
+},
+{
+	"base": {
+		"active": true,
+		"founded": "1997-05-02",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "PRI/LTD BY GUAR/NSC (Private, limited by guarantee, no share capital)"
+		}],
+		"legalName": "LIPTON MEWS RESIDENTS ASSOCIATION LIMITED",
+		"rea": "03364959",
+		"registeredAddress": {
+			"fullAddress": "85 LANCASTER ROAD ENFIELD ENGLAND EN2 0DW",
+			"macroregion": "London",
+			"municipality": "Enfield",
+			"postcode": "EN2 0DW",
+			"province": "Enfield",
+			"region": "Outer London - East and North East",
+			"state": "United Kingdom",
+			"streetName": "85 LANCASTER ROAD"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"fullAddress": "85 LANCASTER ROAD ENFIELD ENGLAND EN2 0DW",
+	"id": "ade2939ff655",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["London"],
+			"municipalities": ["Enfield"],
+			"postcodes": ["EN2 0DW",
+			"N13 5HW",
+			"N14 6BZ"],
+			"provinces": ["Enfield"],
+			"regions": ["Outer London - East and North East"]
+		},
+		"count": 2,
+		"items": [{
+			"address": {
+				"fullAddress": "9 CALLARD AVENUE LONDON MIDDLESEX N13 5HW",
+				"macroregion": "London",
+				"municipality": "Enfield",
+				"postcode": "N13 5HW",
+				"province": "Enfield",
+				"region": "Outer London - East and North East",
+				"state": "United Kingdom",
+				"streetName": "9 CALLARD AVENUE"
+			},
+			"id": "6562fe3e22ba"
+		},
+		{
+			"address": {
+				"fullAddress": "326 LEIGH HUNT DRIVE LONDON N14 6BZ",
+				"macroregion": "London",
+				"municipality": "Enfield",
+				"postcode": "N14 6BZ",
+				"province": "Enfield",
+				"region": "Outer London - East and North East",
+				"state": "United Kingdom",
+				"streetName": "326 LEIGH HUNT DRIVE"
+			},
+			"id": "f69278b87d51"
+		}]
+	},
+	"name": "LIPTON MEWS RESIDENTS ASSOCIATION LIMITED"
+},
+{
+	"base": {
+		"active": true,
+		"founded": "1988-08-31",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "Private Limited Company"
+		}],
+		"legalName": "LIPTON RETAIL CONSULTANCY COMPANY LIMITED",
+		"rea": "02291357",
+		"registeredAddress": {
+			"fullAddress": "BON MARCHE CENTRE 241-251 FERNDALE ROAD LONDON SW9 8BJ",
+			"macroregion": "London",
+			"municipality": "Lambeth",
+			"postcode": "SW9 8BJ",
+			"province": "Lambeth",
+			"region": "Inner London - East",
+			"state": "United Kingdom",
+			"streetName": "BON MARCHE CENTRE 241-251 FERNDALE ROAD"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"economics": {
+		"balanceSheets": [{
+			"assets": 707429,
+			"capitalStock": 100,
+			"date": "2016-03-31",
+			"latest": true,
+			"year": 2016
+		},
+		{
+			"assets": 372457,
+			"capitalStock": 100,
+			"date": "2015-03-31",
+			"latest": false,
+			"year": 2015
+		},
+		{
+			"assets": 372457,
+			"capitalStock": 100,
+			"date": "2015-03-31",
+			"latest": false,
+			"year": 2015
+		},
+		{
+			"assets": 298415,
+			"capitalStock": 100,
+			"date": "2014-03-31",
+			"latest": false,
+			"year": 2014
+		},
+		{
+			"assets": 298415,
+			"date": "2014-03-31",
+			"latest": false,
+			"year": 2014
+		},
+		{
+			"assets": 298213,
+			"date": "2013-03-31",
+			"latest": false,
+			"year": 2013
+		}],
+		"capitalStock": {
+			"value": 100
+		}
+	},
+	"fullAddress": "BON MARCHE CENTRE 241-251 FERNDALE ROAD LONDON SW9 8BJ",
+	"id": "21bca91b47fc",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["London"],
+			"municipalities": ["Lambeth"],
+			"postcodes": ["SW9 8BJ"],
+			"provinces": ["Lambeth"],
+			"regions": ["Inner London - East"]
+		},
+		"count": 0
+	},
+	"name": "LIPTON RETAIL CONSULTANCY COMPANY LIMITED"
+},
+{
+	"base": {
+		"active": true,
+		"founded": "2015-06-04",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "Limited Liability Partnership"
+		}],
+		"legalName": "LIPTON ROGERS HP DEVELOPMENTS LLP",
+		"rea": "OC400193",
+		"registeredAddress": {
+			"fullAddress": "35 NEW BRIDGE STREET LONDON ENGLAND EC4V 6BW",
+			"macroregion": "London",
+			"municipality": "City of London",
+			"postcode": "EC4V 6BW",
+			"province": "Camden and City of London",
+			"region": "Inner London - West",
+			"state": "United Kingdom",
+			"streetName": "35 NEW BRIDGE STREET"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"fullAddress": "35 NEW BRIDGE STREET LONDON ENGLAND EC4V 6BW",
+	"id": "725b96d88b31",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["London"],
+			"municipalities": ["City of London",
+			"Westminster"],
+			"postcodes": ["EC4V 6BW",
+			"W1G 0DT"],
+			"provinces": ["Camden and City of London",
+			"Westminster"],
+			"regions": ["Inner London - West"]
+		},
+		"count": 1,
+		"items": [{
+			"address": {
+				"fullAddress": "33, CAVENDISH SQUARE LONDON ENGLAND W1G 0DT",
+				"macroregion": "London",
+				"municipality": "Westminster",
+				"postcode": "W1G 0DT",
+				"province": "Westminster",
+				"region": "Inner London - West",
+				"state": "United Kingdom",
+				"streetName": "33, CAVENDISH SQUARE"
+			},
+			"id": "c7bd5c1774af"
+		}]
+	},
+	"name": "LIPTON ROGERS HP DEVELOPMENTS LLP"
+},
+{
+	"base": {
+		"active": true,
+		"founded": "1992-04-22",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "PRI/LTD BY GUAR/NSC (Private, limited by guarantee, no share capital)"
+		}],
+		"legalName": "LIPTON COURT MANAGEMENT COMPANY LIMITED",
+		"rea": "02708659",
+		"registeredAddress": {
+			"fullAddress": "NETWORK HOUSE 110/112 LANCASTER ROAD NEW BARNET HERTS ENGLAND EN4 8AL",
+			"macroregion": "London",
+			"municipality": "Barnet",
+			"postcode": "EN4 8AL",
+			"province": "Barnet",
+			"region": "Outer London - West and North West",
+			"state": "United Kingdom",
+			"streetName": "NETWORK HOUSE 110/112 LANCASTER ROAD"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"economics": {
+		"balanceSheets": [{
+			"assets": 34645,
+			"date": "2016-12-31",
+			"latest": true,
+			"year": 2016
+		},
+		{
+			"assets": 33861,
+			"date": "2015-12-31",
+			"latest": false,
+			"year": 2015
+		},
+		{
+			"assets": 33861,
+			"date": "2015-12-31",
+			"latest": false,
+			"year": 2015
+		},
+		{
+			"assets": 33861,
+			"date": "2015-12-31",
+			"latest": false,
+			"year": 2015
+		},
+		{
+			"assets": 31234,
+			"date": "2014-12-31",
+			"latest": false,
+			"year": 2014
+		},
+		{
+			"assets": 31234,
+			"date": "2014-12-31",
+			"latest": false,
+			"year": 2014
+		},
+		{
+			"assets": 31234,
+			"date": "2014-12-31",
+			"latest": false,
+			"year": 2014
+		},
+		{
+			"assets": 28722,
+			"date": "2013-12-31",
+			"latest": false,
+			"year": 2013
+		}]
+	},
+	"fullAddress": "NETWORK HOUSE 110/112 LANCASTER ROAD NEW BARNET HERTS ENGLAND EN4 8AL",
+	"id": "8ad691b957a3",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["East of England",
+			"London",
+			"North West (England)"],
+			"municipalities": ["Barnet",
+			"East Hertfordshire",
+			"Enfield",
+			"Manchester"],
+			"postcodes": ["CM23 5DQ",
+			"EN4 8AL",
+			"M14 5HG",
+			"N14 5HG"],
+			"provinces": ["Barnet",
+			"Enfield",
+			"Hertfordshire",
+			"Manchester"],
+			"regions": ["Bedfordshire and Hertfordshire",
+			"Greater Manchester",
+			"Outer London - East and North East",
+			"Outer London - West and North West"]
+		},
+		"count": 4,
+		"items": [{
+			"address": {
+				"fullAddress": "FLAT 5 LIPTON COURT CHASE SIDE LONDON N14 5HG",
+				"macroregion": "London",
+				"municipality": "Enfield",
+				"postcode": "N14 5HG",
+				"province": "Enfield",
+				"region": "Outer London - East and North East",
+				"state": "United Kingdom",
+				"streetName": "FLAT 5 LIPTON COURT CHASE SIDE"
+			},
+			"id": "44b194c19ffa"
+		},
+		{
+			"address": {
+				"fullAddress": "14 LIPTON COURT 196 CHASE SIDE SOUTH GATE LONDON UK N14 5HG",
+				"macroregion": "London",
+				"municipality": "Enfield",
+				"postcode": "N14 5HG",
+				"province": "Enfield",
+				"region": "Outer London - East and North East",
+				"state": "United Kingdom",
+				"streetName": "14 LIPTON COURT 196 CHASE SIDE"
+			},
+			"id": "9d31f6be89e1"
+		},
+		{
+			"address": {
+				"fullAddress": "15 LIPTON COURT 196 CHASE SIDE SOUTHGATE LONDON M14 5HG",
+				"macroregion": "North West (England)",
+				"municipality": "Manchester",
+				"postcode": "M14 5HG",
+				"province": "Manchester",
+				"region": "Greater Manchester",
+				"state": "United Kingdom",
+				"streetName": "15 LIPTON COURT 196 CHASE SIDE"
+			},
+			"id": "d171e8a6bc90"
+		},
+		{
+			"address": {
+				"fullAddress": "140 HEATH ROW BISHOPS STORTFORD HERTFORDSHIRE CM23 5DQ",
+				"macroregion": "East of England",
+				"municipality": "East Hertfordshire",
+				"postcode": "CM23 5DQ",
+				"province": "Hertfordshire",
+				"region": "Bedfordshire and Hertfordshire",
+				"state": "United Kingdom",
+				"streetName": "140 HEATH ROW"
+			},
+			"id": "eb91127b48fa"
+		}]
+	},
+	"name": "LIPTON COURT MANAGEMENT COMPANY LIMITED"
+},
+{
+	"base": {
+		"active": true,
+		"founded": "2015-05-13",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "Private Limited Company"
+		}],
+		"legalName": "FIRST BASE LIPTON ROGERS LIMITED",
+		"rea": "09589494",
+		"registeredAddress": {
+			"fullAddress": "40, QUEEN ANNE STREET LONDON ENGLAND W1G 9EL",
+			"macroregion": "London",
+			"municipality": "Westminster",
+			"postcode": "W1G 9EL",
+			"province": "Westminster",
+			"region": "Inner London - West",
+			"state": "United Kingdom",
+			"streetName": "40, QUEEN ANNE STREET"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"economics": {
+		"balanceSheets": [{
+			"capitalStock": 100,
+			"date": "2016-03-31",
+			"latest": true,
+			"year": 2016
+		}],
+		"capitalStock": {
+			"value": 100
+		}
+	},
+	"fullAddress": "40, QUEEN ANNE STREET LONDON ENGLAND W1G 9EL",
+	"id": "e4b4538012db",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["London"],
+			"municipalities": ["Westminster"],
+			"postcodes": ["W1G 0DT",
+			"W1G 9EL"],
+			"provinces": ["Westminster"],
+			"regions": ["Inner London - West"]
+		},
+		"count": 2,
+		"items": [{
+			"address": {
+				"fullAddress": "6TH FLOOR EAST WING 33, CAVENDISH SQUARE LONDON ENGLAND W1G 0DT",
+				"macroregion": "London",
+				"municipality": "Westminster",
+				"postcode": "W1G 0DT",
+				"province": "Westminster",
+				"region": "Inner London - West",
+				"state": "United Kingdom",
+				"streetName": "6TH FLOOR EAST WING 33, CAVENDISH SQUARE"
+			},
+			"id": "02fbfc9deac2"
+		},
+		{
+			"address": {
+				"fullAddress": "33, CAVENDISH SQUARE LONDON ENGLAND W1G 0DT",
+				"macroregion": "London",
+				"municipality": "Westminster",
+				"postcode": "W1G 0DT",
+				"province": "Westminster",
+				"region": "Inner London - West",
+				"state": "United Kingdom",
+				"streetName": "33, CAVENDISH SQUARE"
+			},
+			"id": "fe8cae6fd818"
+		}]
+	},
+	"name": "FIRST BASE LIPTON ROGERS LIMITED"
+},
+{
+	"base": {
+		"active": true,
+		"founded": "1997-05-06",
+		"inGroup": false,
+		"legalForms": [{
+			"level": 2,
+			"name": "PRI/LTD BY GUAR/NSC (Private, limited by guarantee, no share capital)"
+		}],
+		"legalName": "LIPTON MEWS FLAT MANAGEMENT COMPANY LIMITED",
+		"rea": "03365505",
+		"registeredAddress": {
+			"fullAddress": "85 LANCASTER ROAD ENFIELD ENGLAND EN2 0DW",
+			"macroregion": "London",
+			"municipality": "Enfield",
+			"postcode": "EN2 0DW",
+			"province": "Enfield",
+			"region": "Outer London - East and North East",
+			"state": "United Kingdom",
+			"streetName": "85 LANCASTER ROAD"
+		},
+		"startup": false
+	},
+	"country": "uk",
+	"fullAddress": "85 LANCASTER ROAD ENFIELD ENGLAND EN2 0DW",
+	"id": "a5617a10a825",
+	"locations": {
+		"anyAddress": {
+			"macroregions": ["London"],
+			"municipalities": ["Enfield"],
+			"postcodes": ["EN2 0DW",
+			"N14 6BZ",
+			"N14 6DS"],
+			"provinces": ["Enfield"],
+			"regions": ["Outer London - East and North East"]
+		},
+		"count": 3,
+		"items": [{
+			"address": {
+				"fullAddress": "304 LEIGH HUNT DRIVE LONDON N14 6BZ",
+				"macroregion": "London",
+				"municipality": "Enfield",
+				"postcode": "N14 6BZ",
+				"province": "Enfield",
+				"region": "Outer London - East and North East",
+				"state": "United Kingdom",
+				"streetName": "304 LEIGH HUNT DRIVE"
+			},
+			"id": "49086602f497"
+		},
+		{
+			"address": {
+				"fullAddress": "223 LEIGH HUNT DRIVE SOUTHGATE LONDON N14 6DS",
+				"macroregion": "London",
+				"municipality": "Enfield",
+				"postcode": "N14 6DS",
+				"province": "Enfield",
+				"region": "Outer London - East and North East",
+				"state": "United Kingdom",
+				"streetName": "223 LEIGH HUNT DRIVE SOUTHGATE"
+			},
+			"id": "dde99bc3fc5c"
+		},
+		{
+			"address": {
+				"fullAddress": "326 LEIGH HUNT DRIVE LONDON N14 6BZ",
+				"macroregion": "London",
+				"municipality": "Enfield",
+				"postcode": "N14 6BZ",
+				"province": "Enfield",
+				"region": "Outer London - East and North East",
+				"state": "United Kingdom",
+				"streetName": "326 LEIGH HUNT DRIVE"
+			},
+			"id": "fd159bbd61ba"
+		}]
+	},
+	"name": "LIPTON MEWS FLAT MANAGEMENT COMPANY LIMITED"
+}]
